@@ -5,7 +5,7 @@ import conn
 
 
 def index(data):
-    data = eval(data)
+    # data = eval(data)
     # 初始化样例变量
     global tel
     tel = data['tel']

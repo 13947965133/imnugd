@@ -11,6 +11,10 @@ class MainHandler(tornado.web.RequestHandler):
          a = self.get_argument('a')
          data = parser.index(a)
          print core.index(data)
+         lihui = "11111"
+         self.render('list.json',lihui=lihui)
+
+
 
 def make_app():
     return tornado.web.Application([
