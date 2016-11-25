@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>账号管理</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+  </head>
+  <body>
+    <h1>注册并登陆</h1>
+    <button id='post'>post请求本地</button>
+    <hr>
+    <button type="button" name="button" id="get">get请求本地</button>
+    <script>
+    $(document).ready(function(){
+
+	     $("#post").click(function(){
+         $.post("http://localhost:8004/users",
+    {
+      "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'zhuce','time':'YY-mm-dd','newpassword':'newpassword'}"
+    },
+        function(data,status){
+        alert("数据: \n" + data + "\n状态: " + status);
+    });
+	     });
+
+       $("#get").click(function(){
+         $.get("http://localhost:8004/users",function(data,status){
+           alert("数据: " + data + "\n状态: " + status);
+         });
+        });
+
+        $.getJSON("http://localhost:8004/users", function(data) {
+
+          var html = '<ul>';
+          for(var i = 0; i < data.length; i++)
+          {
+            html += '<li>' + data[i] + '</li>';
+          }
+          html += '</ul>';
+
+          $('#divCustomers').html(html);
+          });
+
+    });
+    </script>
+    <div id="divCustomers"></div>
+  </body>
+</html>
