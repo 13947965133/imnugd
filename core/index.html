@@ -3,18 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>账号管理</title>
+    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
   </head>
   <body>
+
+    <form role="form">
+      <div class="form-group">
+        <label for="name">名称</label>
+        <input type="text" class="form-control" id="tel" placeholder="请输入账号">
+        <input type="text" class="form-control" id="password" placeholder="请输入密码">
+      </div>
+      <button type="submit" class="btn btn-default" id="denglu">登陆</button>
+    </form>
+
+
     <h1>注册并登陆</h1>
-    <button id='post'>post请求本地</button>
+    <button type="button" name= 'button' id='post' class="btn-info">post请求本地</button>
     <hr>
-    <button type="button" name="button" id="get">get请求本地</button>
+    <button type="button" name="button" id="get" class="btn-info">get请求本地</button>
+    <p id= 'info'>
+
+    </p>
     <script>
     $(document).ready(function(){
 
 	     $("#post").click(function(){
-         $.post("http://localhost:8004/users",
+         $.post("http://localhost:8004/",
     {
       "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'zhuce','time':'YY-mm-dd','newpassword':'newpassword'}"
     },
@@ -29,20 +44,32 @@
          });
         });
 
-        $.getJSON("http://localhost:8004/users", function(data) {
+        $("#denglu").click(function(){
+          var loadInfo = "http://localhost:8004/users";
+          $.getJSON("loadInfo", function(data) {
+            $("#info").html("");//清空info内容
+            $.each(data.comments, function(i, item) {
+              $("#info").append(
+                    "<div>" + item.id + "</div>" +
+                    "<div>" + item.nickname    + "</div>" +
+                    "<div>" + item.content + "</div><hr/>");
+                  });
+                });
+         });
 
-          var html = '<ul>';
-          for(var i = 0; i < data.length; i++)
-          {
-            html += '<li>' + data[i] + '</li>';
-          }
-          html += '</ul>';
+        $("#btn1").click(function(){
+          $("#btn1").append(" <b>追加文本</b>。");
+        });
 
-          $('#divCustomers').html(html);
-          });
+        $("#btn2").click(function(){
+          $("#btn2").append("<li>追加列表项</li>");
+        });
+
 
     });
     </script>
-    <div id="divCustomers"></div>
+    <button type="button" name="button" id="btn1">btn1</button>
+    <button type="button" name="button" id="btn2">btn2</button>
+
   </body>
 </html>
