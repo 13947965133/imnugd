@@ -1,10 +1,6 @@
-"a": "{'tel':'15771332671'
- ,'password':'15771332671'
- ,'token':'abcdefghijklmnopqrstuvwxyz'
- ,'function':'zhuce'
- ,'time':'YY-mm-dd'
- ,'newpassword':'newpassword'}"
-
- "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'zhuce','time':'YY-mm-dd','newpassword':'newpassword'}"
-
-{{lihui}}
+ {"tel":"15771332671"
+ ,"password":"15771332671"
+ ,"token":"abcdefghijklmnopqrstuvwxyz"
+ ,"function":"zhuce"
+ ,"time":"YY-mm-dd"
+ ,"newpassword":"newpassword"}

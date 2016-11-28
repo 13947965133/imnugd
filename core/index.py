@@ -13,8 +13,8 @@ class MainHandler(tornado.web.RequestHandler):
          data = parser.index(a)
          print core.index(data)
          print a
-         lihui = "11111"
-         self.render('list.json',lihui=lihui)
+        #  lihui = "11111"
+         self.render('list.json')
 
 class UsersMandler(tornado.web.RequestHandler):
     def get(self):

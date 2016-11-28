@@ -34,7 +34,12 @@
       "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'zhuce','time':'YY-mm-dd','newpassword':'newpassword'}"
     },
         function(data,status){
-        alert("数据: \n" + data + "\n状态: " + status);
+        // alert("数据: \n" + data + "\n状态: " + status);
+        // alert("shuju:"+data.tel);
+        var jsonStr = data;
+        var jsonObj = JSON.parse(jsonStr);
+        alert(jsonObj.tel);
+        // alert(typeof data);
     });
 	     });
 
@@ -44,25 +49,31 @@
          });
         });
 
+
         $("#denglu").click(function(){
-          var loadInfo = "http://localhost:8004/users";
-          $.getJSON("loadInfo", function(data) {
-            $("#info").html("");//清空info内容
-            $.each(data.comments, function(i, item) {
-              $("#info").append(
-                    "<div>" + item.id + "</div>" +
-                    "<div>" + item.nickname    + "</div>" +
-                    "<div>" + item.content + "</div><hr/>");
-                  });
-                });
+            var str_1;
+            $.post("http://localhost:8004/",
+            {
+              "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'zhuce','time':'YY-mm-dd','newpassword':'newpassword'}"
+            },
+            function(data,status){
+              var jsonStr = data;
+              jsonObj = JSON.parse(jsonStr);
+              var tel = jsonObj.tel;
+              str_1 = tel;
+              alert(str_1);
+            });
+            alert("guohan"+str_1);
+            $("#neirong").append(str_1);
+
          });
 
         $("#btn1").click(function(){
-          $("#btn1").append(" <b>追加文本</b>。");
+          $("#neirong").append("持久"+str_1);
         });
 
         $("#btn2").click(function(){
-          $("#btn2").append("<li>追加列表项</li>");
+          $("#neirong").append("<li>追加列表项</li>");
         });
 
 
@@ -70,6 +81,9 @@
     </script>
     <button type="button" name="button" id="btn1">btn1</button>
     <button type="button" name="button" id="btn2">btn2</button>
+    <p id="neirong">
+        您的手机号是:
+    </p>
 
   </body>
 </html>
