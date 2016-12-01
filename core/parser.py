@@ -13,7 +13,7 @@ import json
 
 
 # 检查非法输入
-data =  "{'tel':'15771332677'  ,'password':'15771332677'  ,'token':'abcdefghijklmnopqrstuvwxyz'  ,'function':'zhuce'  ,'time':'YY-mm-dd'  ,'newpassword':'newpassword'}"
+# data =  "{'tel':'15771332677'  ,'password':'15771332677'  ,'token':'abcdefghijklmnopqrstuvwxyz'  ,'function':'zhuce'  ,'time':'YY-mm-dd'  ,'newpassword':'newpassword'}"
 def index(data):
     result = eval(data)
     # tel = data['tel']

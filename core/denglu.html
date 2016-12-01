@@ -5,7 +5,7 @@
     <title>登陆</title>
     <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
-    <script src="./ajax.js" type="text/javascript"></script>
+    <!-- <script src="./ajax.js" type="text/javascript"></script> -->
     <script type="text/javascript">
     $("#denglu").click(function(){
 
@@ -24,15 +24,27 @@
     </script>
     <script type="text/javascript">
         function denglu(){
-          $.post("http://localhost:8001/",
+          $.post("http://localhost:8001/users",
+          {
+            "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'denglu','time':'YY-mm-dd','newpassword':'newpassword'}"
+          },
+          function(data,status){
+            var jsonStr = data;
+            jsonObj = JSON.parse(jsonStr);
+            var zhuangtai = jsonObj.zhuangtai;
+            $("#neirong").append(zhuangtai);
+          });
+        }
+        function zhuce(){
+          $.post("http://localhost:8001/users",
           {
             "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'zhuce','time':'YY-mm-dd','newpassword':'newpassword'}"
           },
           function(data,status){
             var jsonStr = data;
             jsonObj = JSON.parse(jsonStr);
-            var tel = jsonObj.tel;
-            $("#neirong").append(tel);
+            var zhuangtai = jsonObj.zhuangtai;
+            $("#neirong").append(zhuangtai);
           });
         }
     </script>
@@ -49,7 +61,8 @@
       <button type="submit" class="btn btn-success" id="denglu" onclick="denglu()">登陆</button>
     </form>
     <h1 id="neirong"></h1>
-    <button type="button" name="button" id="test" onclick="denglu()">这里</button>
+    <button type="button" name="button" onclick="denglu()" class="btn-info">登陆</button>
+    <button type="button" name="button" id="test" onclick="zhuce()" class="btn-success">注册</button>
 
   </body>
 </html>

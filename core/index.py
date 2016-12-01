@@ -22,8 +22,7 @@ class UsersMandler(tornado.web.RequestHandler):
     def post(self):
          a = self.get_argument('a')
          data = parser.index(a)
-         print core.index(data)
-         zhuangtai = "OK"
+         zhuangtai = core.index(data)
          number = "200"
          self.render('result.json',zhuangtai=zhuangtai,number=number)
 

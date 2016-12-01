@@ -17,6 +17,7 @@ def index(data):
     func_a = function
     eval(func_a)()
     print func_a,"finish"
+    return func_a
     # vars()[func_a]()
 
 def zhuce():
