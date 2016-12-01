@@ -49,9 +49,10 @@
          });
         });
 
+        var str_1;
+        var str_2 = '2999';
+        str_2 = $("#denglu").click(function(){
 
-        $("#denglu").click(function(){
-            var str_1;
             $.post("http://localhost:8004/",
             {
               "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'zhuce','time':'YY-mm-dd','newpassword':'newpassword'}"
@@ -61,15 +62,23 @@
               jsonObj = JSON.parse(jsonStr);
               var tel = jsonObj.tel;
               str_1 = tel;
-              alert(str_1);
+              // alert(str_1);
+              $("#neirong").append("sss"+tel);
+              return tel;
             });
-            alert("guohan"+str_1);
-            $("#neirong").append(str_1);
+            $("#neirong").append("ttt");
 
          });
 
         $("#btn1").click(function(){
-          $("#neirong").append("持久"+str_1);
+            $.each(str_2,function(key,val){
+              if($.isPlainObject(val) || $.isArray(val)){
+                subObj(val);
+              }else{
+                alert(key+'='+val);
+              }
+            });
+          $("#neirong").append("持久"+str_2);
         });
 
         $("#btn2").click(function(){
@@ -78,9 +87,26 @@
 
 
     });
+    function xieru(){
+      $.post("http://localhost:8004/",
+      {
+        "a": "{'tel':'15771332671','password':'15771332671','token':'abcdefghijklmnopqrstuvwxyz','function':'zhuce','time':'YY-mm-dd','newpassword':'newpassword'}"
+      },
+      function(data,status){
+        var jsonStr = data;
+        jsonObj = JSON.parse(jsonStr);
+        var tel = jsonObj.tel;
+        str_1 = tel;
+        // alert(str_1);
+        $("#neirong").append("sss"+tel);
+        return tel;
+      });
+      // $("#neirong").append("ttt");
+    }
     </script>
     <button type="button" name="button" id="btn1">btn1</button>
     <button type="button" name="button" id="btn2">btn2</button>
+    <button type="button" id="target" onclick="xieru()">点击</button>
     <p id="neirong">
         您的手机号是:
     </p>

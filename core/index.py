@@ -6,7 +6,7 @@ import parser
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
         # self.write("Hello, world")
-        self.render('index.html')
+        self.render('index.html','ajax.js')
 
     def post(self):
          a = self.get_argument('a')
@@ -18,12 +18,14 @@ class MainHandler(tornado.web.RequestHandler):
 
 class UsersMandler(tornado.web.RequestHandler):
     def get(self):
-        self.write('''[{"content":"hencucuo","id":1,"nickname":"nani"},{"content":"youxi","id":2,"nickname":"xiaoqiang"}]''')
-        print "write success"
+        self.render('denglu.html')
     def post(self):
-        data = self.get_argument('a')
-        data = parser.index(a)
-        print core.index(data)
+         a = self.get_argument('a')
+         data = parser.index(a)
+         print core.index(data)
+         zhuangtai = "OK"
+         number = "200"
+         self.render('result.json',zhuangtai=zhuangtai,number=number)
 
 class DingDanMandler(tornado.web.RequestHandler):
     def get(self):
@@ -48,5 +50,5 @@ def make_app():
 
 if __name__ == "__main__":
     app = make_app()
-    app.listen(8004)
+    app.listen(8001)
     tornado.ioloop.IOLoop.current().start()
