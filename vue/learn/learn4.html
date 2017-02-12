@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div id="app-4">
+      <ol>
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ol>
+    </div>
+    <!-- 控制台输入 app4.todos.push({ text: 'New item' }) -->
+    <!-- 会新增一条记录 -->
+  </body>
+  <script type="text/javascript">
+  var app4 = new Vue({
+    el: '#app-4',
+    data: {
+      todos: [
+        { text: 'Learn JavaScript' },
+        { text: 'Learn Vue' },
+        { text: 'Build something awesome' }
+      ]
+    }
+  })
+  </script>
+</html>
