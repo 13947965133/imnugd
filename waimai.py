@@ -6,7 +6,7 @@ if sys.getdefaultencoding() != defaultencoding:
     sys.setdefaultencoding(defaultencoding)
 
 import os.path
-import random
+# import random
 from db import conn
 
 import json
@@ -15,7 +15,7 @@ import tornado.httpserver
 import tornado.ioloop
 import tornado.options
 import tornado.web
-from tornado.options import define, options
+# from tornado.options import define, options
 
 
 class MainHandler(tornado.web.RequestHandler):
@@ -34,9 +34,16 @@ class MainHandler(tornado.web.RequestHandler):
             , "<a href='#'><li class='online'>烧烤海鲜</li></a>"]
 
         self.render("template.html", title="点餐系统主页", items=items,datas=data4)
+
+class AdminDandianHandler(tornado.web.RequestHandler):
+    def get(self):
+        pass
+    def post(self, *args, **kwargs):
+        pass
+
 class DandianHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("dandian.html")
+        self.render("angular/index.html")
 
     def post(self):
         pass
@@ -50,15 +57,6 @@ class ShangjiaHandler(tornado.web.RequestHandler):
         data = self.get_argument('data')
         self.render("shangjia.json",xiugai=data)
 
-class BdwmHandler(tornado.web.RequestHandler):
-    def get(self):
-        sql = "select * from `shangjia` limit 3;"
-        data4 = conn.conn0(sql)
-        data3 = data4[0]
-        self.render("baiduwaimai.html",datas=data3)
-
-    def post(self):
-        pass
 
 class ZhuceHandler(tornado.web.RequestHandler):
     def get(self):
@@ -167,12 +165,12 @@ if __name__ == "__main__":
                   (r'/me', MeHandler),
                   (r'/dandian', DandianHandler),
                   (r'/shangjia',ShangjiaHandler),
-                  (r'/bdwm', BdwmHandler),
                   (r'/zhuce',ZhuceHandler),
                   (r'/denglu', DengluHandler),
                   (r'/address', AddressHandler),
                   (r'/enen', EnenHandler),
                   (r'/(favicon.ico)', tornado.web.StaticFileHandler, {"path": "./ico.ico"}),
+            #新代码
                   ],
         template_path=os.path.join(os.path.dirname(__file__), "templates"),
         static_path=os.path.join(os.path.dirname(__file__), "static"),

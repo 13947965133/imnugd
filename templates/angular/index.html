@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="../../static/angular/css/ionic.min.css">
+    <link rel="stylesheet" href="../../static/angular/css/style.css">
+    <style>
+        ion-slide {
+            height: 12rem !important;
+        }
+
+        ion-slide img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .col-50 img {
+            width: 100%;
+        }
+    </style>
+    <script src="../../static/angular/js/ionic.bundle.js"></script>
+    <script>
+        var app = angular.module('app', ['ionic']);
+        app.controller('HomeCtrl', function ($scope, $ionicSlideBoxDelegate,$rootScope) {
+            $scope.bannerList = ["../../static/angular/images/m1.jpg", "../../static/angular/images/m2.jpg", "../../static/angular/images/m3.jpg"];
+            $scope.footList = [
+                {
+                    id: 1,
+                    name: "秀火锅",
+                    num: 0,
+                    jiage:13,
+                    profile: "这个火锅真好吃",
+                    img: "images/m1.jpg"
+                }, {
+                    id: 2,
+                    name: "麻辣烫",
+                    num: 0,
+                    jiage:15,
+                    profile: "这个麻辣烫真好吃",
+                    img: "images/m2.jpg"
+                }, {
+                    id: 3,
+                    name: "红烧牛肉",
+                    num: 0,
+                    jiage:20,
+                    profile: "这个牛真好吃",
+                    img: "images/m2.jpg"
+                }
+            ];
+            $rootScope.zongjia = 0;
+            $rootScope.zongshu = 0;
+            $scope.jia = function(index){
+                $scope.footList[index].num++;
+                $rootScope.zongshu++;
+                $rootScope.zongjia += $scope.footList[index].jiage;
+            };
+            $scope.jian = function(index){
+                $scope.footList[index].num--;
+                $rootScope.zongshu--;
+                $rootScope.zongjia -= $scope.footList[index].jiage;
+            };
+
+
+            //实时更新轮播图
+            $ionicSlideBoxDelegate.$getByHandle("slide").update();
+            //无缝轮播
+            $ionicSlideBoxDelegate.$getByHandle('slide').loop(true);
+        });
+    </script>
+</head>
+<body ng-app="app" ng-controller="HomeCtrl">
+<div class="bar bar-calm">
+    <h1 class="title">美食</h1>
+</div>
+<ion-content class="scroll-content has-header has-footer">
+    <ion-slide-box auto-play="true" does-continue="true" slide-interval="2000" delegate-handle="slide">
+        <ion-slide ng-repeat="img in bannerList"><img src={{img}} alt=""></ion-slide>
+    </ion-slide-box>
+    <div class="list" ng-controller='HomeCtrl'>
+        <ul>
+            <li class="item item-thumbnail-left" ng-repeat="x in footList">
+                <img src={{x.img}}>
+                <h2>{{x.name}}</h2>
+                <p>{{x.profile}}</p>
+                <p style="color: #d00000;font-size: 1.2rem;">￥{{x.jiage}}</p>
+                <div class="jia-box">
+                    <span ng-show="x.num" ng-click="jian($index)" class="jian">-</span>
+                    <span ng-show="x.num" class="num">{{x.num}}</span>
+                    <span class="jia" ng-click="jia($index)">+</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</ion-content>
+<div class="footer">
+    <div class="gouwuche icon ion-heart"><span>{{zongshu}}</span></div>
+    <h3 class="zongjia">￥{{zongjia}}</h3>
+    <div class="jiesuan">去结算</div>
+</div>
+</body>
+</html>

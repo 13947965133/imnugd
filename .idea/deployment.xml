@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="guohan-aliyun" showNewOnSourceInSync="false">
+    <serverData>
+      <paths name="guohan-aliyun">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/github/guohan/imnugd" local="$PROJECT_DIR$" web="/:8000" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

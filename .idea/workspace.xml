@@ -10,10 +10,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/imnugd$waimai.coverage" NAME="waimai Coverage Results" MODIFIED="1489833678605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/imnugd$waimai.coverage" NAME="waimai Coverage Results" MODIFIED="1489843376171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dalian2@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dalian2@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="shangjia" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -21,30 +53,84 @@
       <file leaf-file-name="waimai.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/waimai.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="1538">
+              <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
               <folding>
-                <marker date="1489829540000" expanded="true" signature="462:494" ph="select * fro... shangjia" />
-                <marker date="1489829540000" expanded="true" signature="1622:1654" ph="select * fro... shangjia" />
-                <marker date="1489829540000" expanded="true" signature="2077:2128" ph="INSERT INTO `user`... " />
-                <marker date="1489829540000" expanded="true" signature="2621:2662" ph="SELECT `upd`... user" />
-                <marker date="1489829540000" expanded="true" signature="2990:3014" ph="SELECT * FRO... shangjia" />
-                <marker date="1489829540000" expanded="true" signature="3202:3226" ph="SELECT * FRO... shangjia" />
-                <marker date="1489829540000" expanded="true" signature="3556:3597" ph="SELECT * FRO... shangjia" />
-                <marker date="1489829540000" expanded="true" signature="3671:3707" ph="SELECT DISTI... list_missing_value" />
-                <marker date="1489829540000" expanded="true" signature="3778:3805" ph="SELECT `one`... list_missing_value" />
-                <marker date="1489829540000" expanded="true" signature="4199:4251" ph="SELECT `u2` user" />
-                <marker date="1489829540000" expanded="true" signature="4483:4534" ph="SELECT * FRO... user" />
+                <marker date="1489842948000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+                <marker date="1489842948000" expanded="true" signature="1967:2018" ph="INSERT INTO `user`... " />
+                <marker date="1489842948000" expanded="true" signature="2511:2552" ph="SELECT `upd`... user" />
+                <marker date="1489842948000" expanded="true" signature="2880:2904" ph="SELECT * FRO... shangjia" />
+                <marker date="1489842948000" expanded="true" signature="3092:3116" ph="SELECT * FRO... shangjia" />
+                <marker date="1489842948000" expanded="true" signature="3446:3487" ph="SELECT * FRO... shangjia" />
+                <marker date="1489842948000" expanded="true" signature="3561:3597" ph="SELECT DISTI... list_missing_value" />
+                <marker date="1489842948000" expanded="true" signature="3668:3695" ph="SELECT `one`... list_missing_value" />
+                <marker date="1489842948000" expanded="true" signature="4089:4141" ph="SELECT `u2` user" />
+                <marker date="1489842948000" expanded="true" signature="4373:4424" ph="SELECT * FRO... user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conn.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/angular/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="837">
+              <caret line="83" column="42" lean-forward="false" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-315">
+              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/conn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="180">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dalian2.shangjia" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/a0636de8/8788f09b-c487-4dee-8a3e-1bfb96c0699d/dalian2.shangjia">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8788f09b-c487-4dee-8a3e-1bfb96c0699d/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="choice.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bt/choice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -52,7 +138,15 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -60,6 +154,9 @@
       <list>
         <option value="$PROJECT_DIR$/op/op" />
         <option value="$PROJECT_DIR$/db/conn.py" />
+        <option value="$PROJECT_DIR$/templates/bt/choice.html" />
+        <option value="$PROJECT_DIR$/waimai.py" />
+        <option value="$PROJECT_DIR$/templates/angular/index.html" />
       </list>
     </option>
   </component>
@@ -89,7 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -101,82 +198,6 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.12 (/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.12 (/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.12 (/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plat-darwin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.12 (/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python2.7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.12 (/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-skeletons" />
-              <option name="myItemType" value="com.jetbrains.python.projectView.PyUserSkeletonsNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -198,30 +219,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="op" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="imnugd" sdk-home="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7">
-        <option name="mySdkHome" value="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <console-settings module-name="imnugd" sdk-home="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7">
+        <option name="mySdkHome" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
         <option name="myModuleName" value="imnugd" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/angular" />
+      <recent name="$PROJECT_DIR$/templates/bt" />
+      <recent name="$PROJECT_DIR$/static/angular" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.waimai">
     <configuration default="false" name="waimai" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -468,6 +534,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c9d9f960-01ac-45cb-b7ba-2d5d7fbb1bae" name="Default" comment="" />
@@ -478,27 +547,38 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1600" height="793" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1600" height="793" extended-state="0" />
+    <editor active="false" />
     <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33563536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -515,20 +595,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/waimai.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1489842948000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="1967:2018" ph="INSERT INTO `user`... " />
+            <marker date="1489842948000" expanded="true" signature="2511:2552" ph="SELECT `upd`... user" />
+            <marker date="1489842948000" expanded="true" signature="2880:2904" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3092:3116" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3446:3487" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3561:3597" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489842948000" expanded="true" signature="3668:3695" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489842948000" expanded="true" signature="4089:4141" ph="SELECT `u2` user" />
+            <marker date="1489842948000" expanded="true" signature="4373:4424" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waimai.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489829540000" expanded="true" signature="462:494" ph="select * fro... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="1622:1654" ph="select * fro... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="2077:2128" ph="INSERT INTO `user`... " />
-            <marker date="1489829540000" expanded="true" signature="2621:2662" ph="SELECT `upd`... user" />
-            <marker date="1489829540000" expanded="true" signature="2990:3014" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3202:3226" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3556:3597" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3671:3707" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1489829540000" expanded="true" signature="3778:3805" ph="SELECT `one`... list_missing_value" />
-            <marker date="1489829540000" expanded="true" signature="4199:4251" ph="SELECT `u2` user" />
-            <marker date="1489829540000" expanded="true" signature="4483:4534" ph="SELECT * FRO... user" />
+            <marker date="1489842948000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="1967:2018" ph="INSERT INTO `user`... " />
+            <marker date="1489842948000" expanded="true" signature="2511:2552" ph="SELECT `upd`... user" />
+            <marker date="1489842948000" expanded="true" signature="2880:2904" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3092:3116" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3446:3487" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3561:3597" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489842948000" expanded="true" signature="3668:3695" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489842948000" expanded="true" signature="4089:4141" ph="SELECT `u2` user" />
+            <marker date="1489842948000" expanded="true" signature="4373:4424" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -538,17 +644,16 @@
         <state relative-caret-position="300">
           <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
-            <marker date="1489829540000" expanded="true" signature="462:494" ph="select * fro... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="1622:1654" ph="select * fro... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="2077:2128" ph="INSERT INTO `user`... " />
-            <marker date="1489829540000" expanded="true" signature="2621:2662" ph="SELECT `upd`... user" />
-            <marker date="1489829540000" expanded="true" signature="2990:3014" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3202:3226" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3556:3597" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3671:3707" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1489829540000" expanded="true" signature="3778:3805" ph="SELECT `one`... list_missing_value" />
-            <marker date="1489829540000" expanded="true" signature="4199:4251" ph="SELECT `u2` user" />
-            <marker date="1489829540000" expanded="true" signature="4483:4534" ph="SELECT * FRO... user" />
+            <marker date="1489842948000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="1967:2018" ph="INSERT INTO `user`... " />
+            <marker date="1489842948000" expanded="true" signature="2511:2552" ph="SELECT `upd`... user" />
+            <marker date="1489842948000" expanded="true" signature="2880:2904" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3092:3116" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3446:3487" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3561:3597" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489842948000" expanded="true" signature="3668:3695" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489842948000" expanded="true" signature="4089:4141" ph="SELECT `u2` user" />
+            <marker date="1489842948000" expanded="true" signature="4373:4424" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -568,30 +673,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waimai.py">
+    <entry file="file://$PROJECT_DIR$/templates/bt/choice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1489829540000" expanded="true" signature="462:494" ph="select * fro... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="1622:1654" ph="select * fro... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="2077:2128" ph="INSERT INTO `user`... " />
-            <marker date="1489829540000" expanded="true" signature="2621:2662" ph="SELECT `upd`... user" />
-            <marker date="1489829540000" expanded="true" signature="2990:3014" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3202:3226" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3556:3597" ph="SELECT * FRO... shangjia" />
-            <marker date="1489829540000" expanded="true" signature="3671:3707" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1489829540000" expanded="true" signature="3778:3805" ph="SELECT `one`... list_missing_value" />
-            <marker date="1489829540000" expanded="true" signature="4199:4251" ph="SELECT `u2` user" />
-            <marker date="1489829540000" expanded="true" signature="4483:4534" ph="SELECT * FRO... user" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8788f09b-c487-4dee-8a3e-1bfb96c0699d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a0636de8/8788f09b-c487-4dee-8a3e-1bfb96c0699d/dalian2.index">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a0636de8/8788f09b-c487-4dee-8a3e-1bfb96c0699d/dalian2.shangjia">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/conn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="180">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waimai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1538">
+          <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
+          <folding>
+            <marker date="1489842948000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="1967:2018" ph="INSERT INTO `user`... " />
+            <marker date="1489842948000" expanded="true" signature="2511:2552" ph="SELECT `upd`... user" />
+            <marker date="1489842948000" expanded="true" signature="2880:2904" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3092:3116" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3446:3487" ph="SELECT * FRO... shangjia" />
+            <marker date="1489842948000" expanded="true" signature="3561:3597" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489842948000" expanded="true" signature="3668:3695" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489842948000" expanded="true" signature="4089:4141" ph="SELECT `u2` user" />
+            <marker date="1489842948000" expanded="true" signature="4373:4424" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/angular/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="83" column="42" lean-forward="false" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="dalian2@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="dalian2">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="sys"/>
+    <schema id="7" parent="1" name="yunhao"/>
+    <table id="8" parent="2" name="index"/>
+    <table id="9" parent="2" name="list_13947965133"/>
+    <table id="10" parent="2" name="list_13947965134"/>
+    <table id="11" parent="2" name="list_13947965135"/>
+    <table id="12" parent="2" name="shangjia"/>
+    <table id="13" parent="2" name="user"/>
+    <column id="14" parent="8" name="a">
+      <Position>1</Position>
+      <DataType>varchar(254)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="9" name="cid">
+      <Position>1</Position>
+      <Comment>商品id</Comment>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="9" name="lei">
+      <Position>2</Position>
+      <Comment>商品类型</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="9" name="one">
+      <Position>3</Position>
+      <Comment>商品详情</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="18" parent="9" name="PRIMARY">
+      <ColNames>cid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="19" parent="10" name="cid">
+      <Position>1</Position>
+      <Comment>商品id</Comment>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="10" name="lei">
+      <Position>2</Position>
+      <Comment>商品类型</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="10" name="one">
+      <Position>3</Position>
+      <Comment>商品详情</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="22" parent="10" name="PRIMARY">
+      <ColNames>cid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="23" parent="11" name="cid">
+      <Position>1</Position>
+      <Comment>商品id</Comment>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="11" name="lei">
+      <Position>2</Position>
+      <Comment>商品类型</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="11" name="one">
+      <Position>3</Position>
+      <Comment>商品详情</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="26" parent="11" name="PRIMARY">
+      <ColNames>cid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="12" name="sid">
+      <Position>1</Position>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="12" name="spd">
+      <Position>2</Position>
+      <Comment>商户密码</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="12" name="sname">
+      <Position>3</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="12" name="s-ico">
+      <Position>4</Position>
+      <Comment>商户头像</Comment>
+      <DataType>varchar(254)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="12" name="s3">
+      <Position>5</Position>
+      <Comment>店铺简介</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="12" name="s4">
+      <Position>6</Position>
+      <Comment>星级</Comment>
+      <DataType>varchar(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="12" name="s5">
+      <Position>7</Position>
+      <Comment>销量</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="12" name="s6">
+      <Position>8</Position>
+      <Comment>起送价</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="12" name="s7">
+      <Position>9</Position>
+      <Comment>配送费</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="12" name="s11">
+      <Position>10</Position>
+      <Comment>是否营业</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="12" name="s12">
+      <Position>11</Position>
+      <Comment>商户类型</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="12" name="s13">
+      <Position>12</Position>
+      <Comment>用户对商家的评价</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="12" name="s14">
+      <Position>13</Position>
+      <Comment>菜单信息</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="12" name="s15">
+      <Position>14</Position>
+      <Comment>营业时间</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="12" name="s16">
+      <Position>15</Position>
+      <Comment>地址</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="12" name="s17">
+      <Position>16</Position>
+      <Comment>联系电话</Comment>
+      <DataType>varchar(14)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="12" name="s18">
+      <Position>17</Position>
+      <Comment>举报与投诉</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="12" name="s19">
+      <Position>18</Position>
+      <Comment>商家类型</Comment>
+      <DataType>varchar(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="12" name="s20">
+      <Position>19</Position>
+      <Comment>广播信息</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="12" name="s21">
+      <Position>20</Position>
+      <Comment>活动1</Comment>
+      <DataType>varchar(254)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="12" name="s22">
+      <Position>21</Position>
+      <Comment>活动2</Comment>
+      <DataType>varchar(254)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="12" name="s23">
+      <Position>22</Position>
+      <Comment>活动3</Comment>
+      <DataType>varchar(254)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="49" parent="12" name="PRIMARY">
+      <ColNames>sid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="13" name="uid">
+      <Position>1</Position>
+      <Comment>用户账号</Comment>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="13" name="upd">
+      <Position>2</Position>
+      <Comment>用户密码</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="13" name="u1">
+      <Position>3</Position>
+      <Comment>昵称</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="13" name="u2">
+      <Position>4</Position>
+      <Comment>订单</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="13" name="u3">
+      <Position>5</Position>
+      <Comment>账户余额</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="13" name="u4">
+      <Position>6</Position>
+      <Comment>收货地址</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="13" name="u5">
+      <Position>7</Position>
+      <Comment>收支明细</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="57" parent="13" name="PRIMARY">
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
