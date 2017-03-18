@@ -1,0 +1,4 @@
+pip install tornado
+
+mysql.connector
+https://dev.mysql.com/downloads/connector/python/
