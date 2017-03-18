@@ -33,7 +33,7 @@ class MainHandler(tornado.web.RequestHandler):
             , "<a href='#'><li class='online'>中式正餐</li></a>"
             , "<a href='#'><li class='online'>烧烤海鲜</li></a>"]
 
-        self.render("template.html", title="大连美食广场主页", items=items,datas=data4)
+        self.render("template.html", title="点餐系统主页", items=items,datas=data4)
 class DandianHandler(tornado.web.RequestHandler):
     def get(self):
         self.render("dandian.html")
