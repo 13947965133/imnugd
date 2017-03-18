@@ -1,0 +1,29 @@
+单个食品
+<ul class="listgroup" data-id="3">
+<li class="list-item item-img list-item1665729853" data-item='{"itemId":"1665729853","itemName":"\u84b2\u70e7\u9cd7\u9c7c\u996d","itemPrice":"49.9","packCount":"1","packPrice":"1","minOrderNumber":"1","leftNum":8888888,"sourceName":"baidu","dish_activity_obj":{"dish_activity_id":"209976","rule_form":"constant","rule_desc":"\u7f51\u7ea2\u9cd7\u9c7c\u996d","order_pack":"1","order_num":"2","orig_order_num":"2","discount_limit":1,"takeout_price_type":"1","left_num":10,"dish_limit":"2","orig_dish_limit":"2","order_limit":"1","new_user":"1","is_support_new_user":"1","is_support_old_user":"1","price":"35.9"}}'>
+<div class="wrap">
+<div class="list-img">
+<div class="lazy-div" data-url="https://map.baidu.com/maps/services/thumbnails?width=172&amp;height=172&amp;quality=60&amp;src=http://img.waimai.baidu.com/pb/23551dfc8d3f6ccd642bb17c30c91549a4&amp;align=center%2Ccenter"></div>
+</div>
+<div class="list-content">
+<h4 class="title">蒲烧鳗鱼饭</h4>
+<p class="description">已售<strong>294</strong>份<span class="activity_num">
+推荐:<strong>27</strong>份</span>
+</p>
+<p>
+<strong class="price">&#165;35.9</strong>
+<s>&#165;49.9</s>
+</p>
+</div>
+</div>
+<div class="item-add">
+<span class="btn  -minus">
+<i class="icon-minus"></i>
+</span>
+<span class="item-count"></span>
+<span class="btn -plus">
+<i class="icon-plus"></i>
+</span>
+</div>
+</li>
+</ul>

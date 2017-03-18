@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<form role="form" id="from-1">
+	<div class="form-group">
+		<label for="tel">手机号</label>
+		<input type="text" class="form-control" id="tel"
+			   placeholder="请输入您的手机号">
+	</div>
+
+    <div class="form-group">
+		<label for="yanzheng">短信验证码</label>
+		<input type="text" class="form-control" id="yanzheng"
+			   	   placeholder="请输入短信验证码">
+        <button class="btn btn-primary">获取短信验证码</button>
+
+	</div>
+
+	<div class="form-group">
+		<label for="password">密码</label>
+		<input type="text" class="form-control" id="password"
+			   placeholder="请设置登录密码">
+	</div>
+	<button type="submit" class="btn btn-primary">注册</button>
+</form>
+<hr>
+
+<hr>
+<script language="JavaScript">
+    $("form").submit(function(e){
+
+        $.post("http://localhost:8000/zhuce",
+        {
+            "tel": $("#tel").val(),
+            "yanzheng":$("#yanzheng").val(),
+            "password":$("#tel").val()
+        },
+        function(data,status){
+	        var jsonStr = data;
+	        datajsonObj = JSON.parse(jsonStr);
+	        var me = datajsonObj;
+	    if (me.code == "success")
+  	    {
+  		    alert("注册成功！请登录！");
+  	    }
+	    else
+  	    {
+  		    alert("注册失败！请重试！");
+  	    }
+        });
+
+
+
+
+    });
+</script>
+</body>
+</html>

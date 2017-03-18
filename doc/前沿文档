@@ -1,0 +1,7 @@
+  ### Python code
+   def add(x, y):
+      return x + y
+   template.execute(add=add)
+
+   ### The template
+   {{ add(1, 2) }}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+html,body{background:#f0f0f0;color:#505050;font-size:62.5%;-webkit-user-select:none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-user-select:none;-webkit-touch-callout:none;-webkit-touch-callout:none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;}
+body,button,input,select,textarea {font:14px \5b8b\4f53,'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif\"Microsoft YaHei"\"微软雅黑";line-height:20px;}
+h1{font-size:24px;}
+h2{font-size:22px;}
+h3{font-size:18px;}
+@media only screen and (min-width:360px) {
+    h1{font-size:28px;}
+    h2{font-size:26px;}
+    h3{font-size:22px;}
+    body,button,input,select,textarea {font-size:18px;line-height:26px;}
+}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}/*阻止旋转屏幕时自动调整字体大小*/
+textarea{resize:none;}
+/*取消按钮在inphone上的默认样式*/
+input[type=button]{-webkit-appearance:none;outline:none}
+input::-webkit-input-placeholder{color:#F0F0F0;}
+textarea::-webkit-input-placeholder{color:#F0F0F0;}
+input::-webkit-input-speech-button {display:none}
+table {border-collapse:collapse;border-spacing:0;}
+th {text-align:inherit;}
+fieldset,img {border:none;}
+abbr,acronym {border:none;font-variant:normal;}
+del {text-decoration:line-through;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+sub,sup {font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup {top:-0.5em;}
+sub {bottom:-0.25em;}
+ins,a,a:hover {text-decoration:none;}
+a:focus,*:focus {outline:none;}
+.clearfix:before,.clearfix:after {content:"";display:table;}
+.clearfix:after {clear:both;overflow:hidden;}
+.clearfix {zoom:1;}
+.clear {clear:both;display:block;font-size:0;height:0;line-height:0;overflow:hidden;}
+.hide {display:none;}
+.block {display:block;}
+.outL{white-space:normal;word-break:break-all;width:100px;}
+.outH{overflow:hidden;text-overflow:ellipsis;white-space:nowrap; width:100px;}
+/*布局*/
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:rigth;}
+.rel{position:relative;}
+.abs{position:absolute;}
+.tac{text-align:center;}
+.tal{text-align:left;}
+.tar{text-align:right;}
+.dib{display:inline-block;}
+.vab{vertical-align:bottom;}
+.vam{vertical-align:middle;}
+.vat{vertical-align:top;}
+/*网格*/
+.box{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:100%;text-align:center;padding:5px 0;}
+.grid,.wrap,.grid:after,.wrap:after,.grid:before,.wrap:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.grid{*zoom:1}
+.grid:before,.grid:after{display:table;content:"";line-height:0}
+.grid:after{clear:both}
+.grid{list-style-type:none;padding:0;margin:0}
+.grid>.grid{clear:none;float:left;margin:0 !important}
+.wrap{float:left;width:100%}
+/*网格*/
+/*flex*/
+.col{height:100%;display:-webkit-box;-webkit-box-orient:vertical;display:flex;display:-webkit-flex;flex-direction:column;}
+.row{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;flex-direction:wrap;display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-lines:multiple;width:100%;height:auto;margin:auto;}
+.flex1{-webkit-box-flex:1;-webkit-flex:1;flex:1;}
+.flex2{-webkit-box-flex:2;-webkit-flex:2;flex:2;}
+.flex3{-webkit-box-flex:3;-webkit-flex:3;flex:3;}
+/*flex*/
+/*容器*/
+.wrapper{position:absolute;top:0;right:0;bottom:0;left:0;padding:5px 5px 60px 5px;overflow:auto;margin-top:44px;-webkit-overflow-scrolling:touch;}
+/*头尾*/
+header,footer{position:fixed;right:0;left:0;z-index:1;text-align:center;background:#CCCCCC;}
+header{top:0;height:44px;}
+footer{bottom:0;}
+
+/*宽度*/
+.w100p{width:100%}
+.w20p{width:20%;}
+
+/*边距*/
+.m5{margin:5px;}
+.p5{padding:5px;}
+.pt5{padding-top:5px;}
+
+.online{ display:inline;}
+.shangjia-tu{width: 200px;height: 200px;}

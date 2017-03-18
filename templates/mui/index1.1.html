@@ -1,0 +1,39 @@
+
+
+			{% for data in data4 %}
+			<div data-id="{{data[10]}}" id="a{{data[10]}}">
+			<a href="index2?sid={{data[0]}}&sname={{data[2]}}">
+        <div class="mui-card">
+                <div class="mui-card-content">
+                    <div class="mui-card-content-inner">
+						<div class="mui-row">
+							<div class="mui-col-xs-4"><br>
+								<img src="../../static/shangjia-ico/{{data[3]}}"style="width: 100%;height: 100%;" alt="商家图标" />
+							</div>
+							<div class="mui-col-xs-1"></div>
+							<div class="mui-col-xs-7">
+								<h4>{{data[2]}}</h4>
+                            <h5>{{data[5]}} 4   月售{{data[6]}}份</h5>
+                            <h5>￥{{data[7]}}元起送/配送费 ￥{{data[8]}}
+								  &nbsp;&nbsp;2.0km/30分钟</h5>
+							</div>
+						</div>
+						<hr />
+						<div class="mui-row">
+							<div class="mui-col-xs-0"></div>
+							<div class="mui-col-xs-9">
+								<h5>新用户下单立减20.0元</h5>
+								<h5>满20减2，满30减6，满40减5</h5>
+							</div>
+
+							<div class="mui-col-xs-2"></div>
+						</div>
+                    </div>
+				</div>
+		</div>
+			</a>
+				</div>
+     	{% end %}
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商家端用户首页</title>
+    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1>商家端</h1>
+<hr>
+<div class="q_msg" id="div1" contentEditable="true"></div>
+<form>
+<input type=hidden name="div">
+<input onclick="this.form.div.value=document.getElememtById('div1').innerHTML" type=button>
+</form>
+<hr>
+<h1 contenteditable="false">哈哈</h1>
+<div id ="test" contenteditable="false">{{title}}</div>
+<button id="tijiao" class="btn btn-primary">点我</button>
+<input class="field" type="text"/>
+    <script>
+    $(document).ready(function(){
+             $("#tijiao").click(function(){
+                 $.post("http://localhost:8000/shangjia",
+                    {
+                        "data": $("#test").text()
+                    },
+                function(data,status){
+//                    var jsonStr = data;
+//                    jsonObj = JSON.parse(jsonStr);
+//                    var zhuangtai = jsonObj.code;
+//                    alert(zhuangtai);
+//                    alert("数据: \n" + data + "\n状态: " + status);
+                });
+             });
+             $("#test").dblclick(function(){
+                $("#test").attr("contentEditable","true");
+             });
+    });
+    </script>
+
+</body>
+</html>

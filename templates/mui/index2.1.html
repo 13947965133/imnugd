@@ -1,0 +1,58 @@
+<div class="mui-col-xs-3">
+				<div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
+					{%set i = 1%}
+					{%for d8 in d8s%}
+					<a class="mui-control-item" href="#content{{i}}">
+						{{d8[0]}}
+						{%set i = i+1%}
+					</a>
+					{% end %}
+				</div>
+			</div>
+<div id="segmentedControlContents" class="mui-col-xs-9" style="border-left: 1px solid #c8c7cc;">
+				<div>
+				{% for d10 in d10s %}
+				{% for d1 in d10%}
+				<ul class="mui-table-view">
+					{%set abs = d1.split() %}
+					{% for ab in abs %}
+						{%set a = ab.split('|')%}
+						<li class="mui-table-view-cell">
+							<div class="mui-row">
+								<div class="mui-col-xs-6">
+									<img src="../../static/shangpin-img/{{a[4]}}" style="width: 75%;height: 75%;" alt="">
+								</div>
+								<div class="mui-col-xs-6">
+									<h5></h5>
+									<h3>{{a[0]}}</h3>
+									<h6>月售{{a[1]}}|好评率{{a[2]}}%</h6>
+									<h5>￥{{a[3]}}</h5>
+									<button onclick="v_add('{{a[0]}}',{{a[3]}});">+</button>
+									<button onclick="v_jian('{{a[0]}}',{{a[3]}},1);">-</button>
+								</div>
+							</div>
+						</li>
+					{% end %}
+				</ul>
+				{% end %}
+				{% end %}
+				</div>
+				<!--<div id="item1" class="mui-control-content mui-active">-->
+
+				<!--</div>-->
+				<!--<div id="item2" class="mui-control-content">-->
+				<!--</div>-->
+				<!--<div id="item3" class="mui-control-content">-->
+				<!--</div>-->
+			</div>
+<div style="position:fixed;bottom:0;">
+	<ul id="gouwuche">
+
+	</ul>
+	<h5 id="text1"></h5>
+    <h5 id="sum"></h5>
+	<a href="index3">
+		<button class="mui-btn mui-btn-blue">确认下单</button>
+	</a>
+
+</div>

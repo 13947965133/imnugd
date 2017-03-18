@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../static/mui/css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../static/mui/css/app.css" />
+		<link rel="shortcut icon" href="/static/ico.ico">
+	
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">商家列表</h1>
+		</header>
+		<div class="mui-content">
+			 <!--<ul class="mui-table-view">-->
+        		<!--<li class="mui-table-view-cell mui-collapse">-->
+            		<!--<a class="mui-navigate-right" href="#">餐饮</a>-->
+            		<!--<div class="mui-collapse-content">-->
+						<!--<a onclick="lsort();"><h5>快餐</h5></a>-->
+						<!--<a href="" onclick="lsort();"><h5>中餐</h5></a>-->
+						<!--<a href="" onclick="lsort();"><h5>西餐</h5></a>-->
+            		<!--</div>-->
+        		<!--</li>-->
+        		<!--<li class="mui-table-view-cell mui-collapse">-->
+            		<!--<a class="mui-navigate-right" href="#">排序</a>-->
+            		<!--<div class="mui-collapse-content">-->
+						<!--<a href="" onclick="lsort();"><h5>智能排序</h5></a>-->
+						<!--<a href="" onclick="lsort();"><h5>距离最近</h5></a>-->
+						<!--<a href="" onclick="lsort();"><h5>销量最高</h5></a>-->
+						<!--<a href="" onclick="lsort();"><h5>配送速度最快</h5></a>-->
+
+            		<!--</div>-->
+        		<!--</li>-->
+        		<!--<li class="mui-table-view-cell mui-collapse">-->
+            		<!--<a class="mui-navigate-right" href="#">筛选</a>-->
+            		<!--<div class="mui-collapse-content">-->
+                		<!--<a href="#"><h5>配送</h5></a>-->
+						<!--<a href="#"><h5>自取</h5></a>-->
+            		<!--</div>-->
+        		<!--</li>-->
+    		<!--</ul>-->
+		 {% include "index1.1.html"%}
+			</div>
+
+		<script src="../../static/mui/js/mui.min.js"></script>
+		<script>
+			function lsort() {
+				 var aDiv = document.getElementsByTagName('div');
+    			 var arr = [];
+    			for(var i=0;i<aDiv.length;i++)
+    			{
+        			arr.push(aDiv[i]);  //aDiv是元素的集合，并不是数组，所以不能直接用数组的sort进行排序。
+    			}
+    			arr.sort(function(a,b){return a.getAttribute('data-id') - b.getAttribute('data-id')});
+    			for(var i=0;i<arr.length;i++)
+    			{
+        			document.body.appendChild(arr[i]); //将排好序的元素，重新塞到body里面显示。
+    			}
+            }
+            function kuaican() {
+				$(#a1101).hide();
+            }
+
+</script>
+	</body>
+
+</html>
