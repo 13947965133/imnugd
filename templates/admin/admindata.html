@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap 实例 - 上下文类+响应式+悬停效果</title>
+	<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#dianji").click(function () {
+             $.post("admin",
+            {
+                data:'{"def":"update","sid":"13947965135","sname":"sname","s-ico":"s-ico","s3":"s3","s4":"s4","s17":"s17","s16":"s16"}'
+            },
+            function(data,status){
+            alert("数据: \n" + data + "\n状态: " + status);
+            });
+        });
+        $("#dianji2").click(function(){
+{#            alert("dainji2");#}
+            var message = $("td").text();
+            alert(message);
+        });
+
+    });
+
+function ShowElement(element)
+{
+var oldhtml = element.innerHTML;
+var newobj = document.createElement('input');
+//创建新的input元素
+newobj.type = 'text';
+//为新增元素添加类型
+newobj.onblur = function(){
+    element.innerHTML = this.value ? this.value : oldhtml;
+    //当触发时判断新增元素值是否为空，为空则不修改，并返回原有值
+    alert(this.value);
+}
+{#onblur表示离开输入框的事件#}
+element.innerHTML = '';
+element.appendChild(newobj);
+newobj.focus();
+}
+</script>
+
+<table class="table table-responsive table-hover">
+	<caption>商家管理系统</caption>
+	<thead>
+		<tr>
+            {% for thead1 in thead %}
+			<th ondblclick="ShowElement(this)">{{thead1}}</th>
+			{% end %}
+		</tr>
+	</thead>
+	<tbody>
+{#		<tr class="active">#}
+{#			<td ondblclick="ShowElement(this)">产品1</td>#}
+{#			<td ondblclick="ShowElement(this)">23/11/2013</td>#}
+{#			<td ondblclick="ShowElement(this)">待发货</td>#}
+{#		</tr>#}
+        {% for data3 in data4 %}
+		<tr class="success">
+            {% for data2 in data3 %}
+			<td ondblclick="ShowElement(this)">{{ data2 }}</td>
+            {% end %}
+		</tr>
+        {% end %}
+{#		<tr  class="warning">#}
+{#			<td>产品3</td>#}
+{#			<td>20/10/2013</td>#}
+{#			<td>待确认</td>#}
+{#		</tr>#}
+{#		<tr  class="danger">#}
+{#			<td>产品4</td>#}
+{#			<td>20/10/2013</td>#}
+{#			<td>已退货</td>#}
+{#		</tr>#}
+	</tbody>
+</table>
+<button class="btn btn-primary" id="dianji">点击</button>
+<button class="btn btn-success" id="dianji2">获取改变数据</button>
+<ul class="pagination">
+	<li><a href="#">&laquo;</a></li>
+	<li class="active"><a href="#">1</a></li>
+	<li class="disabled"><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li><a href="#">4</a></li>
+	<li><a href="#">5</a></li>
+	<li><a href="#">&raquo;</a></li>
+</ul>
+
+</body>
+</html>

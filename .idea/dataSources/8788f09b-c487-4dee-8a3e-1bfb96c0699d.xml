@@ -104,117 +104,117 @@
       <DataType>varchar(64)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="30" parent="12" name="s-ico">
-      <Position>4</Position>
-      <Comment>商户头像</Comment>
-      <DataType>varchar(254)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="31" parent="12" name="s3">
+    <column id="30" parent="12" name="s3">
       <Position>5</Position>
       <Comment>店铺简介</Comment>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="32" parent="12" name="s4">
+    <column id="31" parent="12" name="s4">
       <Position>6</Position>
       <Comment>星级</Comment>
       <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="33" parent="12" name="s5">
+    <column id="32" parent="12" name="s5">
       <Position>7</Position>
       <Comment>销量</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="34" parent="12" name="s6">
+    <column id="33" parent="12" name="s6">
       <Position>8</Position>
       <Comment>起送价</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="35" parent="12" name="s7">
+    <column id="34" parent="12" name="s7">
       <Position>9</Position>
       <Comment>配送费</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="36" parent="12" name="s11">
+    <column id="35" parent="12" name="s11">
       <Position>10</Position>
       <Comment>是否营业</Comment>
       <DataType>tinyint(1)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="37" parent="12" name="s12">
+    <column id="36" parent="12" name="s12">
       <Position>11</Position>
       <Comment>商户类型</Comment>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="38" parent="12" name="s13">
+    <column id="37" parent="12" name="s13">
       <Position>12</Position>
       <Comment>用户对商家的评价</Comment>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="39" parent="12" name="s14">
+    <column id="38" parent="12" name="s14">
       <Position>13</Position>
       <Comment>菜单信息</Comment>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="40" parent="12" name="s15">
+    <column id="39" parent="12" name="s15">
       <Position>14</Position>
       <Comment>营业时间</Comment>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="41" parent="12" name="s16">
+    <column id="40" parent="12" name="s16">
       <Position>15</Position>
       <Comment>地址</Comment>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="42" parent="12" name="s17">
+    <column id="41" parent="12" name="s17">
       <Position>16</Position>
       <Comment>联系电话</Comment>
       <DataType>varchar(14)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="43" parent="12" name="s18">
+    <column id="42" parent="12" name="s18">
       <Position>17</Position>
       <Comment>举报与投诉</Comment>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="44" parent="12" name="s19">
+    <column id="43" parent="12" name="s19">
       <Position>18</Position>
       <Comment>商家类型</Comment>
       <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="45" parent="12" name="s20">
+    <column id="44" parent="12" name="s20">
       <Position>19</Position>
       <Comment>广播信息</Comment>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="46" parent="12" name="s21">
+    <column id="45" parent="12" name="s21">
       <Position>20</Position>
       <Comment>活动1</Comment>
       <DataType>varchar(254)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="47" parent="12" name="s22">
+    <column id="46" parent="12" name="s22">
       <Position>21</Position>
       <Comment>活动2</Comment>
       <DataType>varchar(254)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="48" parent="12" name="s23">
+    <column id="47" parent="12" name="s23">
       <Position>22</Position>
       <Comment>活动3</Comment>
+      <DataType>varchar(254)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="12" name="s_ico">
+      <Position>4</Position>
+      <Comment>商户头像</Comment>
       <DataType>varchar(254)|0</DataType>
       <NotNull>1</NotNull>
     </column>

@@ -37,14 +37,26 @@ class MainHandler(tornado.web.RequestHandler):
 
 class AdminDandianHandler(tornado.web.RequestHandler):
     def get(self):
-        sql = "SELECT `sname`,`s-ico`,`s3`,`s4`,`s17`,`s16` FROM `shangjia`;"
+        sql = "SELECT `sname`,`s_ico`,`s3`,`s4`,`s17`,`s16` FROM `shangjia`;"
         data4 = conn.conn0(sql)
         thead = ["商家名称", "商家图标", "商家简介","星级","联系电话","地址"]
         self.render("admin/admindata.html",thead=thead,data4=data4)
     def post(self, *args, **kwargs):
         data = self.get_argument('data')
         data_dict = json.loads(data)
-        print data_dict['a']
+        print data_dict['def']
+        if data_dict['def'] == 'update':
+            sql = "UPDATE `shangjia` SET sname='%s',s_ico='%s',s3='%s',s4='%s',s17='%s',s16='%s' WHERE sid = '%s';"%(data_dict['sname'],data_dict['s-ico'],data_dict['s3'],data_dict['s4'],data_dict['s17'],data_dict['s16'],data_dict['sid'])
+            conn.conn1(sql)
+            print sql
+        elif data_dict['def'] == 'delete':
+            pass
+            #执行删除操作
+        elif data_dict['def'] == 'insert':
+            pass
+            #执行插入操作
+        else:
+            print "400,非法请求"
         self.write(data+"ww")
 
 class DandianHandler(tornado.web.RequestHandler):
