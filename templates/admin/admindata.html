@@ -24,6 +24,13 @@
             var message = $("td").text();
             alert(message);
         });
+        $(".edit").click(function(){
+            var fuid,val;
+	        fuid = $(this).parent().attr("id");
+	        val = $(this).siblings().text();
+	        alert(val);
+{#	        alert(fuid);#}
+        });
 
     });
 
@@ -62,10 +69,15 @@ newobj.focus();
 {#			<td ondblclick="ShowElement(this)">待发货</td>#}
 {#		</tr>#}
         {% for data3 in data4 %}
-		<tr class="success">
-            {% for data2 in data3 %}
-			<td ondblclick="ShowElement(this)">{{ data2 }}</td>
-            {% end %}
+		<tr class="success" id="{{data3[0]}}">
+			<td ondblclick="ShowElement(this)" class="sid">{{ data3[0] }}</td>
+			<td ondblclick="ShowElement(this)" class="sname">{{ data3[1] }}</td>
+			<td ondblclick="ShowElement(this)" class="s_ico">{{ data3[2] }}</td>
+			<td ondblclick="ShowElement(this)" class="s3">{{ data3[3] }}</td>
+			<td ondblclick="ShowElement(this)" class="s4">{{ data3[4] }}</td>
+			<td ondblclick="ShowElement(this)" class="s17">{{ data3[5] }}</td>
+			<td ondblclick="ShowElement(this)" class="s16">{{ data3[6] }}</td>
+            <td class="edit btn"><a>edit</a></td>
 		</tr>
         {% end %}
 {#		<tr  class="warning">#}

@@ -37,9 +37,9 @@ class MainHandler(tornado.web.RequestHandler):
 
 class AdminDandianHandler(tornado.web.RequestHandler):
     def get(self):
-        sql = "SELECT `sname`,`s_ico`,`s3`,`s4`,`s17`,`s16` FROM `shangjia`;"
+        sql = "SELECT `sid`,`sname`,`s_ico`,`s3`,`s4`,`s17`,`s16` FROM `shangjia`;"
         data4 = conn.conn0(sql)
-        thead = ["商家名称", "商家图标", "商家简介","星级","联系电话","地址"]
+        thead = ["商家ID","商家名称", "商家图标", "商家简介","星级","联系电话","地址"]
         self.render("admin/admindata.html",thead=thead,data4=data4)
     def post(self, *args, **kwargs):
         data = self.get_argument('data')

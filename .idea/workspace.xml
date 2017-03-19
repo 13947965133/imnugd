@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d9f960-01ac-45cb-b7ba-2d5d7fbb1bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8788f09b-c487-4dee-8a3e-1bfb96c0699d.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/8788f09b-c487-4dee-8a3e-1bfb96c0699d.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/admindata.html" afterPath="$PROJECT_DIR$/templates/admin/admindata.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waimai.py" afterPath="$PROJECT_DIR$/waimai.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/imnugd$waimai.coverage" NAME="waimai Coverage Results" MODIFIED="1489929560965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/imnugd$waimai.coverage" NAME="waimai Coverage Results" MODIFIED="1489941972267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -57,14 +56,23 @@
       <file leaf-file-name="waimai.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/waimai.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            <state relative-caret-position="129">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
-                <marker date="1489921157000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
-                <marker date="1489921157000" expanded="true" signature="1243:1303" ph="SELECT * FRO... shangjia" />
-                <marker date="1489921157000" expanded="true" signature="1670:1747" ph="UPDATE `shan... " />
-                <marker date="1489921157000" expanded="true" signature="1670:1764" ph="UPDATE `shan... " />
-                <marker date="1489921157000" expanded="true" signature="1670:1889" ph="UPDATE `shan... " />
+                <marker date="1489933353000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+                <marker date="1489933353000" expanded="true" signature="1243:1309" ph="SELECT * FRO... shangjia" />
+                <marker date="1489933353000" expanded="true" signature="1683:1760" ph="UPDATE `shan... " />
+                <marker date="1489933353000" expanded="true" signature="1683:1777" ph="UPDATE `shan... " />
+                <marker date="1489933353000" expanded="true" signature="1683:1902" ph="UPDATE `shan... " />
+                <marker date="1489933353000" expanded="true" signature="3964:4015" ph="INSERT INTO `user`... " />
+                <marker date="1489933353000" expanded="true" signature="4508:4549" ph="SELECT `upd`... user" />
+                <marker date="1489933353000" expanded="true" signature="4877:4901" ph="SELECT * FRO... shangjia" />
+                <marker date="1489933353000" expanded="true" signature="5089:5113" ph="SELECT * FRO... shangjia" />
+                <marker date="1489933353000" expanded="true" signature="5443:5484" ph="SELECT * FRO... shangjia" />
+                <marker date="1489933353000" expanded="true" signature="5558:5594" ph="SELECT DISTI... list_missing_value" />
+                <marker date="1489933353000" expanded="true" signature="5665:5692" ph="SELECT `one`... list_missing_value" />
+                <marker date="1489933353000" expanded="true" signature="6086:6138" ph="SELECT `u2` user" />
+                <marker date="1489933353000" expanded="true" signature="6370:6421" ph="SELECT * FRO... user" />
               </folding>
             </state>
           </provider>
@@ -73,8 +81,8 @@
       <file leaf-file-name="admindata.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/admin/admindata.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="390">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -546,7 +554,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1600" height="793" extended-state="6" />
+    <frame x="0" y="23" width="1600" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -555,7 +563,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -592,11 +600,20 @@
         <state relative-caret-position="870">
           <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding>
-            <marker date="1489921157000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1243:1303" ph="SELECT * FRO... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1670:1747" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1764" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1889" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1243:1309" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1683:1760" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1777" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1902" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="3964:4015" ph="INSERT INTO `user`... " />
+            <marker date="1489933353000" expanded="true" signature="4508:4549" ph="SELECT `upd`... user" />
+            <marker date="1489933353000" expanded="true" signature="4877:4901" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5089:5113" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5443:5484" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5558:5594" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="5665:5692" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="6086:6138" ph="SELECT `u2` user" />
+            <marker date="1489933353000" expanded="true" signature="6370:6421" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -627,11 +644,20 @@
         <state relative-caret-position="1065">
           <caret line="71" column="48" lean-forward="false" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
           <folding>
-            <marker date="1489921157000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1243:1303" ph="SELECT * FRO... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1670:1747" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1764" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1889" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1243:1309" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1683:1760" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1777" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1902" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="3964:4015" ph="INSERT INTO `user`... " />
+            <marker date="1489933353000" expanded="true" signature="4508:4549" ph="SELECT `upd`... user" />
+            <marker date="1489933353000" expanded="true" signature="4877:4901" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5089:5113" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5443:5484" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5558:5594" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="5665:5692" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="6086:6138" ph="SELECT `u2` user" />
+            <marker date="1489933353000" expanded="true" signature="6370:6421" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -689,11 +715,20 @@
         <state relative-caret-position="1065">
           <caret line="71" column="48" lean-forward="false" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
           <folding>
-            <marker date="1489921157000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1243:1303" ph="SELECT * FRO... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1670:1747" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1764" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1889" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1243:1309" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1683:1760" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1777" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1902" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="3964:4015" ph="INSERT INTO `user`... " />
+            <marker date="1489933353000" expanded="true" signature="4508:4549" ph="SELECT `upd`... user" />
+            <marker date="1489933353000" expanded="true" signature="4877:4901" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5089:5113" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5443:5484" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5558:5594" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="5665:5692" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="6086:6138" ph="SELECT `u2` user" />
+            <marker date="1489933353000" expanded="true" signature="6370:6421" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -703,11 +738,20 @@
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1489921157000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1243:1303" ph="SELECT * FRO... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1670:1747" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1764" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1889" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1243:1309" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1683:1760" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1777" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1902" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="3964:4015" ph="INSERT INTO `user`... " />
+            <marker date="1489933353000" expanded="true" signature="4508:4549" ph="SELECT `upd`... user" />
+            <marker date="1489933353000" expanded="true" signature="4877:4901" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5089:5113" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5443:5484" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5558:5594" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="5665:5692" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="6086:6138" ph="SELECT `u2` user" />
+            <marker date="1489933353000" expanded="true" signature="6370:6421" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -724,11 +768,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489921157000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1243:1303" ph="SELECT * FRO... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1670:1747" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1764" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1889" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1243:1309" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1683:1760" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1777" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1902" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="3964:4015" ph="INSERT INTO `user`... " />
+            <marker date="1489933353000" expanded="true" signature="4508:4549" ph="SELECT `upd`... user" />
+            <marker date="1489933353000" expanded="true" signature="4877:4901" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5089:5113" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5443:5484" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5558:5594" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="5665:5692" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="6086:6138" ph="SELECT `u2` user" />
+            <marker date="1489933353000" expanded="true" signature="6370:6421" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -738,11 +791,20 @@
         <state relative-caret-position="300">
           <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
-            <marker date="1489921157000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1243:1303" ph="SELECT * FRO... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1670:1747" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1764" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1889" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1243:1309" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1683:1760" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1777" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1902" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="3964:4015" ph="INSERT INTO `user`... " />
+            <marker date="1489933353000" expanded="true" signature="4508:4549" ph="SELECT `upd`... user" />
+            <marker date="1489933353000" expanded="true" signature="4877:4901" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5089:5113" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5443:5484" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5558:5594" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="5665:5692" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="6086:6138" ph="SELECT `u2` user" />
+            <marker date="1489933353000" expanded="true" signature="6370:6421" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -823,22 +885,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/waimai.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        <state relative-caret-position="129">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1489921157000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1243:1303" ph="SELECT * FRO... shangjia" />
-            <marker date="1489921157000" expanded="true" signature="1670:1747" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1764" ph="UPDATE `shan... " />
-            <marker date="1489921157000" expanded="true" signature="1670:1889" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="466:498" ph="select * fro... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1243:1309" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="1683:1760" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1777" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="1683:1902" ph="UPDATE `shan... " />
+            <marker date="1489933353000" expanded="true" signature="3964:4015" ph="INSERT INTO `user`... " />
+            <marker date="1489933353000" expanded="true" signature="4508:4549" ph="SELECT `upd`... user" />
+            <marker date="1489933353000" expanded="true" signature="4877:4901" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5089:5113" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5443:5484" ph="SELECT * FRO... shangjia" />
+            <marker date="1489933353000" expanded="true" signature="5558:5594" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="5665:5692" ph="SELECT `one`... list_missing_value" />
+            <marker date="1489933353000" expanded="true" signature="6086:6138" ph="SELECT `u2` user" />
+            <marker date="1489933353000" expanded="true" signature="6370:6421" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/admindata.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="390">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding />
         </state>
       </provider>
