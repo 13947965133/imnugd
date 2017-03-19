@@ -37,13 +37,45 @@ class MainHandler(tornado.web.RequestHandler):
 
 class AdminDandianHandler(tornado.web.RequestHandler):
     def get(self):
-        pass
+        sql = "SELECT `sname`,`s-ico`,`s3`,`s4`,`s17`,`s16` FROM `shangjia`;"
+        data4 = conn.conn0(sql)
+        thead = ["商家名称", "商家图标", "商家简介","星级","联系电话","地址"]
+        self.render("admin/admindata.html",thead=thead,data4=data4)
     def post(self, *args, **kwargs):
-        pass
+        data = self.get_argument('data')
+        data_dict = json.loads(data)
+        print data_dict['a']
+        self.write(data+"ww")
 
 class DandianHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("angular/index.html")
+        str = '''
+        <ion-slide-box auto-play="true" does-continue="true" slide-interval="2000" delegate-handle="slide">
+        <ion-slide ng-repeat="img in bannerList"><img src={{img}} alt=""></ion-slide>
+    </ion-slide-box>
+    <div class="list" ng-controller='HomeCtrl'>
+        <ul>
+            <li class="item item-thumbnail-left" ng-repeat="x in footList">
+                <img src={{x.img}}>
+                <h2>{{x.name}}</h2>
+                <p>{{x.profile}}</p>
+                <p style="color: #d00000;font-size: 1.2rem;">￥{{x.jiage}}</p>
+                <div class="jia-box">
+                    <span ng-show="x.num" ng-click="jian($index)" class="jian">-</span>
+                    <span ng-show="x.num" class="num">{{x.num}}</span>
+                    <span class="jia" ng-click="jia($index)">+</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</ion-content>
+<div class="footer">
+    <div class="gouwuche icon ion-heart"><span>{{zongshu}}</span></div>
+    <h3 class="zongjia">￥{{zongjia}}</h3>
+    <div class="jiesuan">去结算</div>
+</div>
+        '''
+        self.render("angular/index.html",str=str)
 
     def post(self):
         pass
@@ -171,6 +203,7 @@ if __name__ == "__main__":
                   (r'/enen', EnenHandler),
                   (r'/(favicon.ico)', tornado.web.StaticFileHandler, {"path": "./ico.ico"}),
             #新代码
+                  (r'/admin', AdminDandianHandler),
                   ],
         template_path=os.path.join(os.path.dirname(__file__), "templates"),
         static_path=os.path.join(os.path.dirname(__file__), "static"),
