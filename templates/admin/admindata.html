@@ -24,12 +24,28 @@
             var message = $("td").text();
             alert(message);
         });
-        $(".edit").click(function(){
+        $(".save").click(function(){
             var fuid,val;
 	        fuid = $(this).parent().attr("id");
-	        val = $(this).siblings().text();
-	        alert(val);
-{#	        alert(fuid);#}
+            val = {
+                def:"update",
+                sid:fuid,
+                sname:$(this).siblings(".sname").text(),
+                s_ico:$(this).siblings(".s_ico").text(),
+                s3   :$(this).siblings(".s3").text(),
+                s4   :$(this).siblings(".s4").text(),
+                s17  :$(this).siblings(".s17").text(),
+                s16  :$(this).siblings(".s16").text()
+            }
+            console.log(val);
+             $.post("admin",
+            {
+                data:JSON.stringify(val)
+            },
+            function(data,status){
+            alert("数据: \n" + data + "\n状态: " + status);
+            });
+
         });
 
     });
@@ -42,9 +58,12 @@ var newobj = document.createElement('input');
 newobj.type = 'text';
 //为新增元素添加类型
 newobj.onblur = function(){
-    element.innerHTML = this.value ? this.value : oldhtml;
+    if(element.innerHTML == this.value){
+       element.innerHTML = this.value;
+    }else{
+        element.innerHTML = oldhtml;
+    }
     //当触发时判断新增元素值是否为空，为空则不修改，并返回原有值
-    alert(this.value);
 }
 {#onblur表示离开输入框的事件#}
 element.innerHTML = '';
@@ -77,7 +96,7 @@ newobj.focus();
 			<td ondblclick="ShowElement(this)" class="s4">{{ data3[4] }}</td>
 			<td ondblclick="ShowElement(this)" class="s17">{{ data3[5] }}</td>
 			<td ondblclick="ShowElement(this)" class="s16">{{ data3[6] }}</td>
-            <td class="edit btn"><a>edit</a></td>
+            <td class="save btn">save</td>
 		</tr>
         {% end %}
 {#		<tr  class="warning">#}
