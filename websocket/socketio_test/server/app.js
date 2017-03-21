@@ -18,9 +18,13 @@ function handler (req, res) {
 }
 
 io.on('connection', function (socket) {
-  socket.emit('news', { hello2: 'worldwww' });
-  // socket.on('my other event', function (data) {
-  //   console.log(data);
-  // });
+  socket.emit('news', { hello2: 'worldwww',guohan:'values' });
+  socket.on('listmessage', function (data) {
+    if (data.sid = '13947965133') {
+      io.emit('sid_13947965133',data);
+      console.log(data);
+    }else{
+      console.log("no find match user");
+    }
+  });
 });
-      

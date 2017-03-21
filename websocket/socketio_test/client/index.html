@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>client</title>
+	<title>client1</title>
 	<script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script>
 	<!-- <script src="/socket.io/socket.io.js"></script> -->
 <script>
-	function send(){
-		
+	function jieshou(){
   		var socket = io('ws://localhost:8888');
   			socket.on('news', function (data) {
     		console.log(data);
     		// socket.emit('my other event', { my: 'data' });
   		});
-	
+	}
+	function send(){
+		var socket = io('ws://localhost:8888');
+			socket.emit('listmessage',{ sid :'13947965133',list:"cocola*1"});
+	}
+	function sendgroup(){
+		var socket = io('ws://localhost:8888');
+		socket.emit('group1');
+		socket.broadcast.to('group1').emit('event_name', data);
 	}
   
 </script>
 </head>
 <body>
-<button onclick="send();">显示</button>
+<button onclick="jieshou();">接受</button>
+<button onclick="send();">发送listmeaasge消息</button>
+<hr>
+<button onclick="sendgroup();">给分组人发送消息</button>
 </body>
 </html>
