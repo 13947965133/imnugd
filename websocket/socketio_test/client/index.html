@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>client</title>
+	<script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script>
+	<!-- <script src="/socket.io/socket.io.js"></script> -->
+<script>
+	function send(){
+		
+  		var socket = io('ws://localhost:8888');
+  			socket.on('news', function (data) {
+    		console.log(data);
+    		// socket.emit('my other event', { my: 'data' });
+  		});
+	
+	}
+  
+</script>
+</head>
+<body>
+<button onclick="send();">显示</button>
+</body>
+</html>
