@@ -2,3 +2,7 @@ pip install tornado
 
 mysql.connector
 https://dev.mysql.com/downloads/connector/python/
+
+websocket所需要
+node.js环境
+socket.io库
