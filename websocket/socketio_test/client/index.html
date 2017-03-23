@@ -12,6 +12,12 @@
     		// socket.emit('my other event', { my: 'data' });
   		});
 	}
+	list = [
+  		  {"name":["num","total","size","attr1"]}
+  		  ,{"name":["个数","总价","规格","属性"]}
+  		  ,{"name":["个数","总价","规格","属性"]}
+  		  ,{"name":["个数","总价","规格","属性"]}
+		];
 	function send(){
 		var socket = io('ws://localhost:8888');
 			socket.emit('listmessage',{ sid :'13947965133',list:"cocola*1"});

@@ -9,7 +9,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery.cookie/1.4.1/jquery.cookie.js"></script>
-		<!--<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!--标准mui.css-->
 		<link rel="stylesheet" href="../../static/mui/css/mui.min.css">
 		<!--App自定义的css-->
@@ -44,28 +44,15 @@
 		</style>
 	</head>
 
-	<body>
+	<body style="padding-top: 100px;">
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
 			<h1 class="mui-title">{{sname}}</h1>
 		</header>
-<div class="mui-content mui-row mui-fullscreen">
-			<div class="mui-row">
-				<div class="mui-col-xs-1"></div>
-				<div class="mui-col-xs-3">
-					<br>
-					<img style="width: 75%;height: 75%" src="../../static/shangjia-ico/1.jpg" alt="">
-				</div>
-				<div class="mui-col-xs-0.5"></div>
-				<div class="mui-col-xs-7">
-					<br>
-					{%set d12 = d12s[0]%}
-					<h5>起送 ￥{{d12[7]}}|配送 ￥{{d12[8]}}</h5>
-					<h5>送达 约25分钟</h5>
+    <div class="mui-content mui-row mui-fullscreen">
+    <img style="width: 100%;height: 30%;" src="{{static_url("angular/images/m3.jpg")}}" alt="" id="lunbo_img">
 
-				</div>
-			</div>
-			<h5>{{d12[18]}}</h5>
+
 
 			<hr>
 	{% include "index2.1.html"%}
@@ -90,36 +77,27 @@
 		<script src="../../static/mui/js/mui.min.js"></script>
 		<script>
 			$.cookie('gouwuche_sum', '0', { expires: 7 });
-			function add_pin(var2,gen){
-			    sum += var2;
-			}
-			var sum = 0,geshu = 0;
-			sum = $.cookie('gouwuche_sum');
-			var sum = parseFloat(sum);
-			function jisuan(var1,var2) {
-			    pin_name = '<li>'+var1+'</li>';
-				sum += var2;
-				$.cookie('gouwuche_sum', sum, { expires: 7 });
-				$("#sum").text("共计"+sum+"元");
-            }
-            function v_add(var1,var2){
-			    geshu ++;
-//			    $("#gouwuche").text("<li>饮料1</li>");
-			    $.cookie(var1, geshu);
-			    jisuan(var1,var2);
-			}
-			function v_jian(var1,var2,var3) {
-				pin_name = '<li>'+var1+'</li>';
-				sum -= var2;
-				geshu --;
-				$.cookie(var1, geshu);
-				$.cookie('gouwuche_sum', sum, { expires: 7 });
-				$("#sum").text("共计"+sum+"元");
-            }
-œ
+			list = {
+                "sum":"0"
+            };
+            $(".zeng").click(function () {
+                total  = $(this).siblings(".jiage").text();
+                list.name = ['1',total,"规格","属性"];
+                console.log(list);
+            });
+            $(".jian").click(function () {
+
+            });
+            $("#xiadan").click(function () {
+
+            });
+            $(window).scroll(function(){
+                    $('#lunbo_img').css('top', $(document).scrollTop());
+            });
+
 			mui.init({
 				swipeBack: true //启用右滑关闭功能
-			});
+             });
 			$('#item2').affix({
   			 offset: {
 	  			top: 100, bottom: function () {
