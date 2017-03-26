@@ -194,6 +194,15 @@ class EnenHandler(tornado.web.RequestHandler):
         name = tornado.escape.xhtml_escape(self.current_user)
         self.write("Hello, " + name)
 
+class GetlistHandler(tornado.web.RequestHandler):
+    def get(self, *args, **kwargs):
+        self.write("这是get请求页")
+    def post(self, *args, **kwargs):
+        sid = self.get_argument('sid')
+        sql = "SELECT * FROM shangjia WHERE sid='%s';"%(sid)
+        data4 = conn.conn0(sql)
+        self.write("is tong!")
+
 if __name__ == "__main__":
     tornado.options.parse_command_line()
     settings = {
@@ -217,6 +226,7 @@ if __name__ == "__main__":
                   (r'/(favicon.ico)', tornado.web.StaticFileHandler, {"path": "./ico.ico"}),
             #新代码
                   (r'/admin', AdminDandianHandler),
+                  (r'/getlist', GetlistHandler),
                   ],
         template_path=os.path.join(os.path.dirname(__file__), "templates"),
         static_path=os.path.join(os.path.dirname(__file__), "static"),

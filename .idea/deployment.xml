@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="guohan-aliyun" showNewOnSourceInSync="false">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="guohan-aliyun" showNewOnSourceInSync="false">
     <serverData>
       <paths name="guohan-aliyun">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>
