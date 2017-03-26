@@ -8,6 +8,7 @@ if sys.getdefaultencoding() != defaultencoding:
 import os.path
 # import random
 from db import conn
+from db import connpg
 
 import json
 import tornado
@@ -15,6 +16,7 @@ import tornado.httpserver
 import tornado.ioloop
 import tornado.options
 import tornado.web
+import psycopg2
 # from tornado.options import define, options
 
 
@@ -196,12 +198,19 @@ class EnenHandler(tornado.web.RequestHandler):
 
 class GetlistHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
-        self.write("这是get请求页")
+        sid = self.get_argument('sid')
+        sql = "SELECT * FROM shangjia WHERE sid='%s';" % (sid)
+        print sql
+        data4 = connpg.conn(sql)
+        print data4
+        self.write("gg")
     def post(self, *args, **kwargs):
         sid = self.get_argument('sid')
         sql = "SELECT * FROM shangjia WHERE sid='%s';"%(sid)
-        data4 = conn.conn0(sql)
-        self.write("is tong!")
+        print sql
+        data4 = connpg.conn(sql)
+        data3 = json.dumps(data4)
+        self.write(data3)
 
 if __name__ == "__main__":
     tornado.options.parse_command_line()
