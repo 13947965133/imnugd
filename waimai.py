@@ -107,7 +107,7 @@ class ShangjiaHandler(tornado.web.RequestHandler):
 
 class ZhuceHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("zhuce.html")
+        pass
 
     def post(self):
         tel = self.get_argument('tel')
@@ -122,21 +122,6 @@ class ZhuceHandler(tornado.web.RequestHandler):
         print data4
         self.render("shangjia.json",code= data5, tel=tel,yanzheng=yanzheng,password=password)
 
-class DengluHandler(tornado.web.RequestHandler):
-    def get(self):
-        self.render("denglu.html")
-    def post(self):
-        tel = self.get_argument('tel')
-        password = self.get_argument('password')
-        sql = '''SELECT `upd` FROM user WHERE (`uid`="%s");''' % (tel)
-        data4 = conn.conn0(sql)
-        data3 = data4[0]
-        data2 = data3[0]
-        if data2 == password:
-            data1 = 1
-        else:
-            data1 = 0
-        self.render("denglu.json",code = "200",message=data1)
 
 class IndexHandler(tornado.web.RequestHandler):
     def get(self):
@@ -198,12 +183,7 @@ class EnenHandler(tornado.web.RequestHandler):
 
 class GetlistHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
-        sid = self.get_argument('sid')
-        sql = "SELECT * FROM shangjia WHERE sid='%s';" % (sid)
-        print sql
-        data4 = connpg.conn(sql)
-        print data4
-        self.write("gg")
+        self.render('angular/getlist.html')
     def post(self, *args, **kwargs):
         sid = self.get_argument('sid')
         sql = "SELECT * FROM shangjia WHERE sid='%s';"%(sid)
@@ -229,7 +209,6 @@ if __name__ == "__main__":
                   (r'/dandian', DandianHandler),
                   (r'/shangjia',ShangjiaHandler),
                   (r'/zhuce',ZhuceHandler),
-                  (r'/denglu', DengluHandler),
                   (r'/address', AddressHandler),
                   (r'/enen', EnenHandler),
                   (r'/(favicon.ico)', tornado.web.StaticFileHandler, {"path": "./ico.ico"}),
