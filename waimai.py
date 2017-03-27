@@ -185,6 +185,9 @@ class GetlistHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
         self.render('angular/getlist.html')
     def post(self, *args, **kwargs):
+        self.set_header("Access-Control-Allow-Origin", "*")
+        self.set_header("Access-Control-Allow-Headers", "x-requested-with")
+        self.set_header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')
         sid = self.get_argument('sid')
         sql = "SELECT * FROM shangjia WHERE sid='%s';"%(sid)
         print sql
