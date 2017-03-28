@@ -2,14 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d9f960-01ac-45cb-b7ba-2d5d7fbb1bae" name="Default" comment="实现了商家信息的编辑,对所有商家信息管理的后台管理页面">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/bt/choice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dandian.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dingdan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/newindex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/shangjia.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mui/address.html" afterPath="$PROJECT_DIR$/templates/mui/address.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waimai.py" afterPath="$PROJECT_DIR$/waimai.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/actionsheet-plus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/actionsheet.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/ad.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/badges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/beecloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons-with-badges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons-with-block.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons-with-icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons-with-loading.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/card.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/checkbox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/clouddb_wilddog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/dtpicker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/echarts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/grid-default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/grid-pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/guide.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/icons-extra.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/im-chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/imageviewer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/indexed-list-select.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/indexed-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/input.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/lazyload-image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/list-triplex-row.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/list-with-input.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/locker-dom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/media-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/modals.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/nav_transparent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/numbox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-down.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-left-plus-main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-left-plus-menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-left.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-right-plus-main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-right-plus-menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-right.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/picker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/popovers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/progressbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/pullrefresh_main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/pullrefresh_sub.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/pullrefresh_with_tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/radio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/range.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/setting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/slider-default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/slider-table-default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/slider-table-pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/slider-with-title.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/switches.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-vertical-scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-subpage-about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-subpage-chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-subpage-contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-subpage-setting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-with-segmented-control-vertical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-with-segmented-control.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-with-viewpagerindicator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tabbar-labels-only.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tabbar-with-submenus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tabbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tableviews-with-badges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tableviews-with-collapses.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tableviews-with-swipe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tableviews.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/typography.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,21 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shangjia.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shangjia.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/shangjia.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/result.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -294,6 +357,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1254,18 +1331,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shangjia.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/result.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shangjia.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
