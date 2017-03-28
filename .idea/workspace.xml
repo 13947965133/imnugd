@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d9f960-01ac-45cb-b7ba-2d5d7fbb1bae" name="Default" comment="实现了商家信息的编辑,对所有商家信息管理的后台管理页面">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/mui/使用iframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/mui/注册.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/mui/登录.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/mui/菜单.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/mui/重置密码.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/mui/首页布局.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/bt/choice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dandian.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dingdan.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/newindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/shangjia.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op/op" afterPath="$PROJECT_DIR$/op/op" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mui/address.html" afterPath="$PROJECT_DIR$/templates/mui/address.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waimai.py" afterPath="$PROJECT_DIR$/waimai.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,24 +64,44 @@
       <file leaf-file-name="waimai.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/waimai.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="203" column="43" lean-forward="true" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
               <folding>
-                <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-                <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-                <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-                <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-                <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-                <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-                <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-                <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-                <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-                <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-                <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-                <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-                <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-                <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
+                <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+                <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+                <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+                <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+                <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+                <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+                <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+                <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+                <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+                <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+                <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+                <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+                <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+                <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shangjia.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/shangjia.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/result.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,36 +116,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="address.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mui/address.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/conn.py">
+      <file leaf-file-name="lunbo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/lunbo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="-240">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/postgres/connect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="36" selection-end-column="12" />
-              <folding>
-                <marker date="1490444863000" expanded="true" signature="370:437" ph="CREATE TABLE... test" />
-                <marker date="1490444863000" expanded="true" signature="501:547" ph="INSERT INTO test... " />
-                <marker date="1490444863000" expanded="true" signature="609:631" ph="SELECT * FRO... shangjia" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -223,7 +229,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/op/op" />
-        <option value="$PROJECT_DIR$/templates/bt/choice.html" />
         <option value="$PROJECT_DIR$/templates/angular/index.html" />
         <option value="$PROJECT_DIR$/templates/admin/admindata.html" />
         <option value="$PROJECT_DIR$/json/caidan.json" />
@@ -236,10 +241,11 @@
         <option value="$PROJECT_DIR$/db/conn-pg.py" />
         <option value="$PROJECT_DIR$/db/connpg.py" />
         <option value="$PROJECT_DIR$/templates/adddress.html" />
-        <option value="$PROJECT_DIR$/templates/mui/address.html" />
         <option value="$PROJECT_DIR$/templates/angular/getlist.html" />
-        <option value="$PROJECT_DIR$/waimai.py" />
         <option value="$PROJECT_DIR$/db/postgres/shangjia.sql" />
+        <option value="$PROJECT_DIR$/templates/mui/address.html" />
+        <option value="$PROJECT_DIR$/templates/bt/choice.html" />
+        <option value="$PROJECT_DIR$/waimai.py" />
       </list>
     </option>
   </component>
@@ -288,38 +294,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -708,16 +682,17 @@
     <frame x="0" y="23" width="1600" height="793" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.5225" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.505" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.4875" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.4775" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.4775" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.495" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -726,7 +701,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33563536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -748,61 +722,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/mui/index2.2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mui/index2.1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mui/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="44" lean-forward="false" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/angular/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/dingdan.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/admindata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a0636de8/8788f09b-c487-4dee-8a3e-1bfb96c0699d/dalian2.list_13947965133">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/a0636de8/8788f09b-c487-4dee-8a3e-1bfb96c0699d/dalian2.shangjia">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -821,20 +740,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-            <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-            <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-            <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
         </state>
       </provider>
@@ -844,20 +763,20 @@
         <state relative-caret-position="870">
           <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding>
-            <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-            <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-            <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-            <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
         </state>
       </provider>
@@ -887,20 +806,20 @@
         <state relative-caret-position="1065">
           <caret line="71" column="48" lean-forward="false" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
           <folding>
-            <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-            <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-            <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-            <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
         </state>
       </provider>
@@ -958,20 +877,20 @@
         <state relative-caret-position="1065">
           <caret line="71" column="48" lean-forward="false" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
           <folding>
-            <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-            <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-            <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-            <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
         </state>
       </provider>
@@ -981,20 +900,20 @@
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-            <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-            <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-            <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
         </state>
       </provider>
@@ -1011,20 +930,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-            <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-            <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-            <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
         </state>
       </provider>
@@ -1034,20 +953,20 @@
         <state relative-caret-position="300">
           <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
-            <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-            <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-            <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-            <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
         </state>
       </provider>
@@ -1089,13 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bt/choice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1247,29 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waimai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <marker date="1490623389000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490623389000" expanded="true" signature="4004:4055" ph="INSERT INTO `user`... " />
-            <marker date="1490623389000" expanded="true" signature="4403:4427" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4615:4639" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="4969:5010" ph="SELECT * FRO... shangjia" />
-            <marker date="1490623389000" expanded="true" signature="5084:5120" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5191:5218" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490623389000" expanded="true" signature="5612:5664" ph="SELECT `u2` user" />
-            <marker date="1490623389000" expanded="true" signature="5896:5947" ph="SELECT * FRO... user" />
-            <marker date="1490623389000" expanded="true" signature="6752:6789" ph="SELECT * FRO... shangjia" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/angular/getlist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1286,10 +1175,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dingdan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mui/address.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bt/choice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dandian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/lunbo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shangjia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waimai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="203" column="43" lean-forward="true" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
+          <folding>
+            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
+            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
+            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
+            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
+            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
+            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
+            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shangjia.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>

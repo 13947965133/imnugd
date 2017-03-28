@@ -95,15 +95,6 @@ class DandianHandler(tornado.web.RequestHandler):
     def post(self):
         pass
 
-class ShangjiaHandler(tornado.web.RequestHandler):
-    def get(self):
-        title = "大连"
-        self.render("shangjia.html",title=title)
-
-    def post(self):
-        data = self.get_argument('data')
-        self.render("shangjia.json",xiugai=data)
-
 
 class ZhuceHandler(tornado.web.RequestHandler):
     def get(self):
@@ -210,7 +201,6 @@ if __name__ == "__main__":
                   (r'/list', ListHandler),
                   (r'/me', MeHandler),
                   (r'/dandian', DandianHandler),
-                  (r'/shangjia',ShangjiaHandler),
                   (r'/zhuce',ZhuceHandler),
                   (r'/address', AddressHandler),
                   (r'/enen', EnenHandler),
