@@ -1,4 +1,9 @@
+前端环境：
+
+业务层环境：
+python2.7
 pip install tornado
+pip install psycopg2
 
 mysql.connector
 https://dev.mysql.com/downloads/connector/python/
@@ -6,3 +11,9 @@ https://dev.mysql.com/downloads/connector/python/
 websocket所需要
 node.js环境
 socket.io库
+
+DB环境：
+postgres
+mysql
+
+部署过程：
