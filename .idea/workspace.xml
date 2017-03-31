@@ -2,87 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d9f960-01ac-45cb-b7ba-2d5d7fbb1bae" name="Default" comment="实现了商家信息的编辑,对所有商家信息管理的后台管理页面">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/accordion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/actionsheet-plus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/actionsheet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/ad.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/badges.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/beecloud.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons-with-badges.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons-with-block.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons-with-icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons-with-loading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/card.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/checkbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/clouddb_wilddog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/date.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/dtpicker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/echarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/feedback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/grid-default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/grid-pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/guide.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/icons-extra.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/im-chat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/imageviewer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/indexed-list-select.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/indexed-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/input.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/lazyload-image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/list-triplex-row.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/list-with-input.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/locker-dom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/media-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/modals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/nav_transparent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/numbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-down.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-left-plus-main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-left-plus-menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-left.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-right-plus-main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-right-plus-menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/offcanvas-drag-right.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/picker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/popovers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/progressbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/pullrefresh_main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/pullrefresh_sub.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/pullrefresh_with_tab.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/radio.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/setting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/slider-default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/slider-table-default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/slider-table-pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/slider-with-title.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/switches.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-vertical-scroll.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-subpage-about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-subpage-chat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-subpage-contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-webview-subpage-setting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-with-segmented-control-vertical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-with-segmented-control.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tab-with-viewpagerindicator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tabbar-labels-only.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tabbar-with-submenus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tabbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tableviews-with-badges.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tableviews-with-collapses.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tableviews-with-swipe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/tableviews.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/mui/examples/typography.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/imnugd$connect.coverage" NAME="connect Coverage Results" MODIFIED="1490444824911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db/postgres" />
-    <SUITE FILE_PATH="coverage/imnugd$waimai.coverage" NAME="waimai Coverage Results" MODIFIED="1490681245846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/imnugd$waimai.coverage" NAME="waimai Coverage Results" MODIFIED="1490923576677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/imnugd$connpg.coverage" NAME="connpg Coverage Results" MODIFIED="1490541671555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -134,11 +55,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="waimai.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="waimai.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/waimai.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="203" column="43" lean-forward="true" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
+            <state relative-caret-position="249">
+              <caret line="205" column="38" lean-forward="true" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
               <folding>
                 <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
                 <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
@@ -159,112 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shangjia.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/shangjia.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getlist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/angular/getlist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="address.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/mui/address.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lunbo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/lunbo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shangjia.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/postgres/shangjia.sql">
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <marker date="1490680475000" expanded="true" signature="193:1823" ph="[...]" />
-                <marker date="1490680475000" expanded="true" signature="197:621" ph="{&quot;listName&quot;: &quot;♥热门&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="253:617" ph="[...]" />
-                <marker date="1490680475000" expanded="true" signature="254:373" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="375:495" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="497:616" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="622:1001" ph="{&quot;listName&quot;: &quot;♥肉&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="671:999" ph="[...]" />
-                <marker date="1490680475000" expanded="true" signature="672:779" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="781:889" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="891:998" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="1003:1821" ph="{&quot;listName&quot;: &quot;★新菜&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="1051:1819" ph="[...]" />
-                <marker date="1490680475000" expanded="true" signature="1052:1160" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="1162:1270" ph="{&quot;id&quot;: &quot;5&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="1272:1379" ph="{&quot;id&quot;: &quot;6&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="1381:1489" ph="{&quot;id&quot;: &quot;5&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="1491:1599" ph="{&quot;id&quot;: &quot;5&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="1601:1709" ph="{&quot;id&quot;: &quot;5&quot;...}" />
-                <marker date="1490680475000" expanded="true" signature="1711:1818" ph="{&quot;id&quot;: &quot;6&quot;...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connpg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/connpg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dalian2.list_13947965133" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/a0636de8/8788f09b-c487-4dee-8a3e-1bfb96c0699d/dalian2.list_13947965133">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dalian2.shangjia" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/a0636de8/8788f09b-c487-4dee-8a3e-1bfb96c0699d/dalian2.shangjia">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -275,8 +95,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -309,6 +129,7 @@
         <option value="$PROJECT_DIR$/templates/mui/address.html" />
         <option value="$PROJECT_DIR$/templates/bt/choice.html" />
         <option value="$PROJECT_DIR$/waimai.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
       </list>
     </option>
   </component>
@@ -338,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -370,14 +193,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="websocket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websocket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socketio_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websocket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socketio_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -756,28 +617,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1600" height="793" extended-state="0" />
+    <frame x="0" y="23" width="1600" height="793" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.505" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.4875" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.525" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.4775" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.495" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.475" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.4875" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33563536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.495" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -799,19 +660,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/a0636de8/8788f09b-c487-4dee-8a3e-1bfb96c0699d/dalian2.shangjia">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/waimai.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -874,7 +722,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +778,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,13 +788,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bt/choice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bt/choice.html" />
     <entry file="file://$PROJECT_DIR$/waimai.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
@@ -1157,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,11 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="36" selection-end-column="12" />
-          <folding>
-            <marker date="1490444863000" expanded="true" signature="370:437" ph="CREATE TABLE... test" />
-            <marker date="1490444863000" expanded="true" signature="501:547" ph="INSERT INTO test... " />
-            <marker date="1490444863000" expanded="true" signature="609:631" ph="SELECT * FRO... shangjia" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1023,54 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/angular/getlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mui/注册.html" />
+    <entry file="file://$PROJECT_DIR$/templates/dingdan.html" />
+    <entry file="file://$PROJECT_DIR$/templates/mui/address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bt/choice.html" />
+    <entry file="file://$PROJECT_DIR$/templates/dandian.html" />
+    <entry file="file://$PROJECT_DIR$/templates/lunbo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newindex.html" />
+    <entry file="file://$PROJECT_DIR$/templates/shangjia.html" />
+    <entry file="file://$PROJECT_DIR$/templates/result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shangjia.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/postgres/shangjia.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1203,115 +1083,21 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/postgres/shangjia.sql">
+    <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <marker date="1490680475000" expanded="true" signature="193:1823" ph="[...]" />
-            <marker date="1490680475000" expanded="true" signature="197:621" ph="{&quot;listName&quot;: &quot;♥热门&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="253:617" ph="[...]" />
-            <marker date="1490680475000" expanded="true" signature="254:373" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="375:495" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="497:616" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="622:1001" ph="{&quot;listName&quot;: &quot;♥肉&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="671:999" ph="[...]" />
-            <marker date="1490680475000" expanded="true" signature="672:779" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="781:889" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="891:998" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="1003:1821" ph="{&quot;listName&quot;: &quot;★新菜&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="1051:1819" ph="[...]" />
-            <marker date="1490680475000" expanded="true" signature="1052:1160" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="1162:1270" ph="{&quot;id&quot;: &quot;5&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="1272:1379" ph="{&quot;id&quot;: &quot;6&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="1381:1489" ph="{&quot;id&quot;: &quot;5&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="1491:1599" ph="{&quot;id&quot;: &quot;5&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="1601:1709" ph="{&quot;id&quot;: &quot;5&quot;...}" />
-            <marker date="1490680475000" expanded="true" signature="1711:1818" ph="{&quot;id&quot;: &quot;6&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/angular/getlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mui/注册.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dingdan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mui/address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bt/choice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dandian.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/lunbo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/newindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shangjia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/waimai.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="203" column="43" lean-forward="true" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
+        <state relative-caret-position="249">
+          <caret line="205" column="38" lean-forward="true" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
           <folding>
             <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
             <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
@@ -1328,22 +1114,6 @@
             <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
             <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/result.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shangjia.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
