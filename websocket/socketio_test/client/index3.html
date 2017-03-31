@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>client2</title>
-	<script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script>
-	<!-- <script src="/socket.io/socket.io.js"></script> -->
+	<title>商家端demo</title>
+	<meta charset="utf-8">
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script>
 <script>
-	function readclientmessage1(){
+	// function readclientmessage1(){
 		var socket = io('ws://imnu.online:8888');
 		socket.on('sid_13947965133', function (data) {
 			alert(data.list);
     		console.log(data);
     		// socket.emit('my other event', { my: 'data' });
   		});
-	}
+	// }
   
 </script>
 </head>
 <body>
-<button onclick="readclientmessage1();">查看client1发送的消息</button>
+
 </body>
 </html>

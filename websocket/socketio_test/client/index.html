@@ -3,10 +3,12 @@
 <head>
 	<title>client1</title>
 	<script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script>
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
 	<!-- <script src="/socket.io/socket.io.js"></script> -->
 <script>
 	function jieshou(){
-  		var socket = io('ws://localhost:8888');
+  		var socket = io('ws://imnu.online:8888');
   			socket.on('news', function (data) {
     		console.log(data);
     		// socket.emit('my other event', { my: 'data' });
@@ -19,21 +21,17 @@
   		  ,{"name":["个数","总价","规格","属性"]}
 		];
 	function send(){
-		var socket = io('ws://localhost:8888');
-			socket.emit('listmessage',{ sid :'13947965133',list:"cocola*1"});
-	}
-	function sendgroup(){
-		var socket = io('ws://localhost:8888');
-		socket.emit('group1');
-		socket.broadcast.to('group1').emit('event_name', data);
+		var socket = io('ws://www.imnu.online:8888');
+			socket.emit('listmessage',{ sid :'13947965133',list:$("#shuru").val()});
 	}
   
 </script>
 </head>
 <body>
-<button onclick="jieshou();">接受</button>
+<input type="text" id="shuru" name="">
+<!-- <button onclick="jieshou();">接受</button> -->
 <button onclick="send();">发送listmeaasge消息</button>
+<h3>{ sid :'13947965133',list:"cocola*1"}</h3>
 <hr>
-<button onclick="sendgroup();">给分组人发送消息</button>
 </body>
 </html>

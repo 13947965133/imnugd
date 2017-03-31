@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d9f960-01ac-45cb-b7ba-2d5d7fbb1bae" name="Default" comment="实现了商家信息的编辑,对所有商家信息管理的后台管理页面">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/postgres/dingdan.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websocket/socketio_test/client/index.html" afterPath="$PROJECT_DIR$/websocket/socketio_test/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websocket/socketio_test/client/index2.html" afterPath="$PROJECT_DIR$/websocket/socketio_test/client/index2.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +57,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="waimai.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="waimai.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/waimai.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
-              <caret line="205" column="38" lean-forward="true" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+              <caret line="205" column="38" lean-forward="false" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
               <folding>
                 <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
                 <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
@@ -76,6 +78,16 @@
                 <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
                 <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dingdan.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/postgres/dingdan.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,6 +142,7 @@
         <option value="$PROJECT_DIR$/templates/bt/choice.html" />
         <option value="$PROJECT_DIR$/waimai.py" />
         <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/db/postgres/dingdan.sql" />
       </list>
     </option>
   </component>
@@ -138,6 +151,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/websocket/socketio_test/server/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -234,6 +250,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imnugd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="postgres" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,10 +665,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1600" height="793" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1600" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.525" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -660,29 +708,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/waimai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
-            <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
-            <marker date="1490687011000" expanded="true" signature="1748:1825" ph="UPDATE `shan... " />
-            <marker date="1490687011000" expanded="true" signature="1748:1842" ph="UPDATE `shan... " />
-            <marker date="1490687011000" expanded="true" signature="1748:1967" ph="UPDATE `shan... " />
-            <marker date="1490687011000" expanded="true" signature="3752:3803" ph="INSERT INTO `user`... " />
-            <marker date="1490687011000" expanded="true" signature="4151:4175" ph="SELECT * FRO... shangjia" />
-            <marker date="1490687011000" expanded="true" signature="4363:4387" ph="SELECT * FRO... shangjia" />
-            <marker date="1490687011000" expanded="true" signature="4717:4758" ph="SELECT * FRO... shangjia" />
-            <marker date="1490687011000" expanded="true" signature="4832:4868" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1490687011000" expanded="true" signature="4939:4966" ph="SELECT `one`... list_missing_value" />
-            <marker date="1490687011000" expanded="true" signature="5360:5412" ph="SELECT `u2` user" />
-            <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
-            <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/waimai.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -1097,7 +1122,7 @@
     <entry file="file://$PROJECT_DIR$/waimai.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="205" column="38" lean-forward="true" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+          <caret line="205" column="38" lean-forward="false" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
           <folding>
             <marker date="1490687011000" expanded="true" signature="504:536" ph="select * fro... shangjia" />
             <marker date="1490687011000" expanded="true" signature="1281:1347" ph="SELECT * FRO... shangjia" />
@@ -1114,6 +1139,14 @@
             <marker date="1490687011000" expanded="true" signature="5644:5695" ph="SELECT * FRO... user" />
             <marker date="1490687011000" expanded="true" signature="6500:6537" ph="SELECT * FRO... shangjia" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/postgres/dingdan.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
