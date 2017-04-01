@@ -10,7 +10,7 @@
 	function readclientmessage1(){
 		var socket = io('ws://imnu.online:8888');
 		socket.on('sid_13947965133', function (data) {
-			$("#dingdan").append(data.list);
+			$("#dingdan").append("<li>"+data.list+"</li>");
     		console.log(data);
     		// socket.emit('my other event', { my: 'data' });
   		});
@@ -20,7 +20,8 @@
 </script>
 </head>
 <body>
-	<ol id="dingdan">
+	<ol>
+		<div id="dingdan"></div>
 	</ol>
 </body>
 </html>

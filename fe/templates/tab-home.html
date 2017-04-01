@@ -1,0 +1,44 @@
+<ion-view hide-tabs="true">
+    <div class="bar bar-dark">
+        <h1 class="title">美食</h1>
+    </div>
+    <!--<span class="xiaoqiu"></span>-->
+    <ion-content style="right: 70%;" class="leftList has-header has-header">
+        <div class="list leftList">
+            <ul>
+                <li class="item item-dark"
+                    ng-repeat="x in footList"
+                    ng-click="dian(x.listID)"
+                    ng-class="{'active':x.listID==leftNum}">
+                    {{x.listName}}
+                </li>
+            </ul>
+        </div>
+    </ion-content>
+    <ion-content scroll-monitor id="right" style="left: 30%;" class="rightList has-header has-footer" delegate-handle="scrollRight" on-scroll="onScroll()">
+        <div class="list" ng-repeat="y in footList"  id={{y.listName}}>
+            <ul>
+                <li style="border: 0;" class="item item-divider item-dark">{{y.listName}}</li>
+                <li style="position: relative;" ng-repeat="x in y.list" last-index>
+                    <div style="border: 0;" class="item item-thumbnail-left" ng-click="jump(x.id)" nav-direction="back">
+                        <img src={{x.img}}>
+                        <h2>{{x.name}}</h2>
+                        <p>{{x.profile}}</p>
+                        <p style="color: #d00000;font-size: 1.2rem;">￥{{x.jiage}}</p>
+                    </div>
+                    <div class="jia-box">
+                        <span ng-show="num[x.id]" ng-click="minus(x)" class="jian"><i class="icon ion-android-remove"></i></span>
+                        <span ng-show="num[x.id]" class="num">{{num[x.id]}}</span>
+                        <span class="jia" ng-click="plus(x)" jiajia><i class="icon ion-android-add"></i></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </ion-content>
+    <div class="footer">
+        <div class="gouwuche icon ion-ios-cart"><span>{{zongshu}}</span></div>
+        <h3 class="zongjia">￥{{zongjia}}</h3>
+        <div class="jiesuan">去结算</div>
+    </div>
+
+</ion-view>
