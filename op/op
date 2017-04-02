@@ -1,23 +1,11 @@
-前端环境：
-
-业务层环境：
-python2.7
-pip install tornado
-pip install psycopg2
-
-mysql.connector
-https://dev.mysql.com/downloads/connector/python/
-
-websocket所需要
-node.js环境
-socket.io库
-
-DB环境：
-postgres
-mysql
-
 部署过程：
 
-新版的代码实现了前后端分离的做法
-1.apache内跑前端代码，tronado跑后端服务。允许跨域请求
-2.tronado的模板引擎内跑前端（fe）代码，不允许跨域请求，但是缺点就是{{}}表达式在前后端模板引擎中冲突。
+代码git下来后：
+需要修改db下connpg内的postres库的用户名为 root
+检查8000端口的占用问题
+
+分为
+apache内的 fe目录跑前端文件
+waimai.py核心文件跑后端服务
+启动pg库服务和mysql服务
+websock下跑及时通信的websock服务

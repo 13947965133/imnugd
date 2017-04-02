@@ -1,0 +1,18 @@
+系统环境:linux主流分发版本，建议使用ubuntu14.04LTS版本
+数据库环境:mysql5.6 postgres9.6
+数据库表结构文件:db目录下postgres下的main.sql文件
+数据库测试数据文件:db目录下的data.sql文件
+python环境:
+    python2.7
+    pip install tornado
+    pip install psycopg2
+    pip install mysql.connector
+    > https://dev.mysql.com/downloads/connector/python/
+    代码存放在项目根目录waimai.py
+nodejs环境:
+    npm install socket.io
+    代码存放在websocket目录下
+前端环境：
+    jquery
+
+
