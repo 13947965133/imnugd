@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d9f960-01ac-45cb-b7ba-2d5d7fbb1bae" name="Default" comment="实现了商家信息的编辑,对所有商家信息管理的后台管理页面">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/用户下单.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/postgres/CreateTable/dingdan.sql" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/postgres/CreateTable/shangjia.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/json/caidan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/baidulib.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun1 - 副本.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun2 - 副本.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun3 - 副本.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun4 - 副本.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun5 - 副本.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lunbo/lun5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/angular/getlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/angular/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/lunbo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/mui/enen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/result.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/shangjia.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xml/caidan.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/op/op" afterPath="$PROJECT_DIR$/op/部署过程" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/daohang.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mui/address.html" afterPath="$PROJECT_DIR$/templates/mui/address.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waimai.py" afterPath="$PROJECT_DIR$/waimai.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,7 +93,7 @@
       <file leaf-file-name="shangjia.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/shangjia.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -264,16 +239,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imnugd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -663,13 +628,14 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.5375" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.5175" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.4825" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.4625" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.4625" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.50823045" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.49176955" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -679,7 +645,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.485" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33563536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -703,48 +668,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/waimai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1491115680000" expanded="true" signature="512:578" ph="SELECT * FRO... shangjia" />
-            <marker date="1491115680000" expanded="true" signature="979:1056" ph="UPDATE `shan... " />
-            <marker date="1491115680000" expanded="true" signature="979:1073" ph="UPDATE `shan... " />
-            <marker date="1491115680000" expanded="true" signature="979:1198" ph="UPDATE `shan... " />
-            <marker date="1491115680000" expanded="true" signature="1563:1587" ph="SELECT * FRO... shangjia" />
-            <marker date="1491115680000" expanded="true" signature="1775:1799" ph="SELECT * FRO... shangjia" />
-            <marker date="1491115680000" expanded="true" signature="2129:2170" ph="SELECT * FRO... shangjia" />
-            <marker date="1491115680000" expanded="true" signature="2244:2280" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1491115680000" expanded="true" signature="2351:2378" ph="SELECT `one`... list_missing_value" />
-            <marker date="1491115680000" expanded="true" signature="2772:2824" ph="SELECT `u2` user" />
-            <marker date="1491115680000" expanded="true" signature="3056:3107" ph="SELECT * FRO... user" />
-            <marker date="1491115680000" expanded="true" signature="3637:3674" ph="SELECT * FRO... shangjia" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waimai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <marker date="1491115680000" expanded="true" signature="512:578" ph="SELECT * FRO... shangjia" />
-            <marker date="1491115680000" expanded="true" signature="979:1056" ph="UPDATE `shan... " />
-            <marker date="1491115680000" expanded="true" signature="979:1073" ph="UPDATE `shan... " />
-            <marker date="1491115680000" expanded="true" signature="979:1198" ph="UPDATE `shan... " />
-            <marker date="1491115680000" expanded="true" signature="1563:1587" ph="SELECT * FRO... shangjia" />
-            <marker date="1491115680000" expanded="true" signature="1775:1799" ph="SELECT * FRO... shangjia" />
-            <marker date="1491115680000" expanded="true" signature="2129:2170" ph="SELECT * FRO... shangjia" />
-            <marker date="1491115680000" expanded="true" signature="2244:2280" ph="SELECT DISTI... list_missing_value" />
-            <marker date="1491115680000" expanded="true" signature="2351:2378" ph="SELECT `one`... list_missing_value" />
-            <marker date="1491115680000" expanded="true" signature="2772:2824" ph="SELECT `u2` user" />
-            <marker date="1491115680000" expanded="true" signature="3056:3107" ph="SELECT * FRO... user" />
-            <marker date="1491115680000" expanded="true" signature="3637:3674" ph="SELECT * FRO... shangjia" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/conn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -968,14 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/shangjia.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/postgres/CreateTable/dingdan.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1118,6 +1033,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/daohang.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ico.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/shangjia.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
