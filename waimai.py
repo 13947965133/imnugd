@@ -20,23 +20,6 @@ import psycopg2
 # from tornado.options import define, options
 
 
-class MainHandler(tornado.web.RequestHandler):
-    def get(self):
-        sql = "select * from `shangjia` limit 3;"
-        data4 = conn.conn0(sql)
-        # data3 = data4[0]
-        items = [
-              "<div><a href='#'><li class='online'>品牌馆</li></a></div>"
-            , "<a href='#'><li class='online'>小吃快餐</li></a>"
-            , "<a href='#'><li class='online'>早餐</li></a>"
-            , "<a href='#'><li class='online'>地方菜</li></a>"
-            , "<a href='#'><li class='online'>西式快餐</li></a>"
-            , "<a href='#'><li class='online'>异国风味</li></a>"
-            , "<a href='#'><li class='online'>中式正餐</li></a>"
-            , "<a href='#'><li class='online'>烧烤海鲜</li></a>"]
-
-        self.render("template.html", title="点餐系统主页", items=items,datas=data4)
-
 class AdminDandianHandler(tornado.web.RequestHandler):
     def get(self):
         sql = "SELECT `sid`,`sname`,`s_ico`,`s3`,`s4`,`s17`,`s16` FROM `shangjia`;"
@@ -62,56 +45,6 @@ class AdminDandianHandler(tornado.web.RequestHandler):
             print "400,非法请求"
         self.write("200")
 
-class DandianHandler(tornado.web.RequestHandler):
-    def get(self):
-        str = '''
-        <ion-slide-box auto-play="true" does-continue="true" slide-interval="2000" delegate-handle="slide">
-        <ion-slide ng-repeat="img in bannerList"><img src={{img}} alt=""></ion-slide>
-    </ion-slide-box>
-    <div class="list" ng-controller='HomeCtrl'>
-        <ul>
-            <li class="item item-thumbnail-left" ng-repeat="x in footList">
-                <img src={{x.img}}>
-                <h2>{{x.name}}</h2>
-                <p>{{x.profile}}</p>
-                <p style="color: #d00000;font-size: 1.2rem;">￥{{x.jiage}}</p>
-                <div class="jia-box">
-                    <span ng-show="x.num" ng-click="jian($index)" class="jian">-</span>
-                    <span ng-show="x.num" class="num">{{x.num}}</span>
-                    <span class="jia" ng-click="jia($index)">+</span>
-                </div>
-            </li>
-        </ul>
-    </div>
-</ion-content>
-<div class="footer">
-    <div class="gouwuche icon ion-heart"><span>{{zongshu}}</span></div>
-    <h3 class="zongjia">￥{{zongjia}}</h3>
-    <div class="jiesuan">去结算</div>
-</div>
-        '''
-        self.render("angular/index.html",str=str)
-
-    def post(self):
-        pass
-
-
-class ZhuceHandler(tornado.web.RequestHandler):
-    def get(self):
-        pass
-
-    def post(self):
-        tel = self.get_argument('tel')
-        yanzheng = self.get_argument('yanzheng')
-        password = self.get_argument('password')
-        sql = '''INSERT INTO `user`(`uid`, `upd`) VALUES ("%s","%s");'''%(tel,password)
-        data4 = conn.conn1(sql)
-        if data4==None:
-            data5 = "success"
-        else:
-            data5 = "default"
-        print data4
-        self.render("shangjia.json",code= data5, tel=tel,yanzheng=yanzheng,password=password)
 
 
 class IndexHandler(tornado.web.RequestHandler):
@@ -163,14 +96,6 @@ class MeHandler(tornado.web.RequestHandler):
         data4 = conn.conn0(sql)
         self.render("mui/me.html",data4=data4)
 
-class AddressHandler(tornado.web.RequestHandler):
-    def get(self):
-        self.render("mui/address.html")
-
-class EnenHandler(tornado.web.RequestHandler):
-    def get(self):
-        name = tornado.escape.xhtml_escape(self.current_user)
-        self.write("Hello, " + name)
 
 class GetlistHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
@@ -200,10 +125,6 @@ if __name__ == "__main__":
                   (r'/index3', Index3Handler),
                   (r'/list', ListHandler),
                   (r'/me', MeHandler),
-                  (r'/dandian', DandianHandler),
-                  (r'/zhuce',ZhuceHandler),
-                  (r'/address', AddressHandler),
-                  (r'/enen', EnenHandler),
                   (r'/(favicon.ico)', tornado.web.StaticFileHandler, {"path": "./ico.ico"}),
             #新代码
                   (r'/admin', AdminDandianHandler),
