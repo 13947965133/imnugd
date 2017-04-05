@@ -1,0 +1,13 @@
+<ion-view>
+    <ion-content>
+        <div class="list" ng-repeat="x in fontList" repeat style="margin-bottom: 0;">
+            <ul>
+                <li class="item item-divider item-dark text-center">title</li>
+                <li class="item" ng-repeat="y in x">
+                    <span class="text-left">{{y.name}}</span>
+                    <span class="badge badge-dark">{{y.num}}</span>
+                </li>
+            </ul>
+        </div>
+    </ion-content>
+</ion-view>
