@@ -10,6 +10,7 @@ import os.path
 from db import conn
 from db import connpg
 
+import time
 import json
 import tornado
 import tornado.httpserver
@@ -108,8 +109,20 @@ class GetlistHandler(tornado.web.RequestHandler):
         sql = "SELECT * FROM shangjia WHERE sid='%s';"%(sid)
         print sql
         data4 = connpg.conn(sql)
-        data3 = json.dumps(data4)
-        self.write(data3)
+        # data3 = json.dumps(data4)
+        self.write(data4)
+
+class ReceivedListHandler(tornado.web.RequestHandler):
+    def post(self, *args, **kwargs):
+        self.set_header("Access-Control-Allow-Origin", "*")
+        self.set_header("Access-Control-Allow-Headers", "x-requested-with")
+        self.set_header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')
+        data = self.get_argument('data')
+        # sql = '''INSERT INTO list(sid,list,sum,renshu,zhifu,fapiao,beizhu,time)'
+        #       'VALUES ('%s','%s'::json
+        #         ,'%s',%s,%s,%s,'%s',now());'''%(sid,list,sum,renshu,zhifu,fapiao,beizhu)
+        # data4 = connpg.conn(sql)
+        self.write("True")
 
 if __name__ == "__main__":
     tornado.options.parse_command_line()
@@ -129,6 +142,7 @@ if __name__ == "__main__":
             #新代码
                   (r'/admin', AdminDandianHandler),
                   (r'/getlist', GetlistHandler),
+                  (r'/receivedlist', ReceivedListHandler),
                   ],
         template_path=os.path.join(os.path.dirname(__file__), "templates"),
         static_path=os.path.join(os.path.dirname(__file__), "static"),
