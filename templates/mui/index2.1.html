@@ -27,8 +27,8 @@
 									<h3>{{a[0]}}</h3>
 									<h6>月售{{a[1]}}|好评率{{a[2]}}%</h6>
 									<h5 class="jiage">￥{{a[3]}}</h5>
-									<button class="zeng">+</button>
-									<button class="jian">-</button>
+									<button class="zeng" onclick="zeng('{{ a[0] }}',1,{{ a[3] }});">+</button>
+									<button class="jian" onclick="jian('{{ a[0] }}',0,{{ a[3] }});">-</button>
 								</div>
 							</div>
 						</li>

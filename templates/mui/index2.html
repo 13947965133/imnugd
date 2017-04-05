@@ -80,13 +80,30 @@
 			list = {
                 "sum":"0"
             };
+			var i=1,sum=0;
+			function zeng(n,g,j){
+
+               $.cookie(n, i);
+               i++;
+               sum += j;
+               $.cookie('gouwuche_sum', sum);
+               $("#sum").text(sum);
+            }
+            function jian(n,g,j){
+			    i2 = $.cookie(n);
+                i2--;
+			    $.cookie(n, i);
+               sum -= j;
+               $.cookie('gouwuche_sum', sum);
+               $("#sum").text(sum);
+            }
             $(".zeng").click(function () {
                 total  = $(this).siblings(".jiage").text();
                 list.name = ['1',total,"规格","属性"];
                 console.log(list);
             });
             $(".jian").click(function () {
-
+                $.cookie('', 'the_value', { expires: 7 });
             });
             $("#xiadan").click(function () {
 
