@@ -9,7 +9,7 @@
 <!-- <script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script> -->
 <script>
 	function readclientmessage1(){
-		var socket = io('ws://imnu.online:8888');
+		var socket = io('ws://localhost:8888');
 		socket.on('sid_13947965133', function (data) {
 			$("#dingdan").append("<li>"+data.list+"</li>");
     		console.log(data);

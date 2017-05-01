@@ -26,22 +26,21 @@ io.on('connection', function (socket) {
     // }else{
     //   console.log("no find match user");
     // }
+    // var monitor = 'sid_'+data.sid
+    // io.emit(monitor,data);
       switch(data.sid)
       {
 
         case '13947965133':
             io.emit('sid_13947965133',data);
-            //   console.log(data);
             break;
 
         case '17004957578':
            io.emit('sid_17004957578',data);
-            //   console.log(data);
             break;
 
         case '15771337133':
             io.emit('sid_15771337133',data);
-            //   console.log(data);
             break;
 
         default:
