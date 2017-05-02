@@ -1,6 +1,6 @@
 angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 	//首页
-.controller('HomeCtrl', function ($scope,$http,$rootScope, $ionicScrollDelegate, $sessionStorage,$interval,$state,$animate) {
+.controller('HomeCtrl', function ($scope,$http,$rootScope, $ionicScrollDelegate, $sessionStorage,$interval,$state,$animate,$ionicPopup) {
 	//$http({
 	//	url:"http://imnu.online:8000/getlist",
 	//	method:"post",
@@ -65,21 +65,16 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 		$scope.show = !$scope.show;
 	};
 	$rootScope.personNum = 2;
-	$scope.statements = function(){
-		window.location = '#tab/confirm';
+    $scope.statements = function(){
+        if($rootScope){
+            window.location = '#tab/confirm';
+        }else{
+            $ionicPopup.alert({
+                title: '请选择菜'
+            });
+        }
 
-		//console.log(toString($scope.shopping))
-		//$http({
-		//	url: 'http://imnu.online:8000/receivedlist',
-		//	method: 'post',
-		//	params: {
-		//		data: $scope.shopping
-		//	}
-		//
-		//}).success(function(data){
-		//	console.log(data)
-		//});
-	};
+    };
 	$interval(function(){});
 })
 	//详情页
@@ -127,7 +122,7 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 		window.location = '#/tab/home';
 	};
 })
-.controller('ConfirmCtrl',function($scope,$rootScope,$http){
+.controller('ConfirmCtrl',function($scope,$rootScope,$http,$ionicPopup){
 	$rootScope.personNum = 2;
 	$scope.back = function(){
 		window.location = '#/tab/home';
@@ -159,6 +154,9 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 				//websocket
 				var socket = io('ws://www.imnu.online:8888');
 				socket.emit('listmessage',{ sid :'13947965133',list:$rootScope.shopping});
+                $ionicPopup.alert({
+                    title: '订单完成'
+                });
 			}
 		});
 	}
@@ -175,3 +173,4 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 		}
 	}
 })
+
