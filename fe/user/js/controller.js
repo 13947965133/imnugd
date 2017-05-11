@@ -1,6 +1,7 @@
 var zhuohao;
 angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 	//首页
+<<<<<<< HEAD:fe/user/js/controller.js
 .controller('HomeCtrl', function ($scope,$http,$rootScope, $ionicScrollDelegate, $sessionStorage,$interval,$state,$animate) {
 	var w2 = location.href.split("?");
 	var w3 = w2[1];
@@ -10,6 +11,16 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 	}
 	document.title="hello2";
 	zhuohao = 24;
+=======
+.controller('HomeCtrl', function ($scope,$http,$rootScope, $ionicScrollDelegate, $sessionStorage,$interval,$state,$animate,$ionicPopup) {
+	//$http({
+	//	url:"http://imnu.online:8000/getlist",
+	//	method:"post",
+	//	params:{sid:"15771337133"}
+	//}).success(function(data){
+	//	$scope.footList = JSON.parse(data[3]);
+	//});
+>>>>>>> origin/master:fe/ionic/js/controller.js
 	$http({
 		url:"app_data/"+usesid+".json",
 		method:"get"
@@ -68,9 +79,22 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 		$scope.show = !$scope.show;
 	};
 	$rootScope.personNum = 2;
+<<<<<<< HEAD:fe/user/js/controller.js
 	$scope.statements = function(){
 		window.location = '#/tab/confirm';
 	};
+=======
+    $scope.statements = function(){
+        if($rootScope){
+            window.location = '#tab/confirm';
+        }else{
+            $ionicPopup.alert({
+                title: '请选择菜'
+            });
+        }
+
+    };
+>>>>>>> origin/master:fe/ionic/js/controller.js
 	$interval(function(){});
 })
 	//详情页
@@ -104,7 +128,7 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 		window.location = '#/tab/home';
 	};
 })
-.controller('ConfirmCtrl',function($scope,$rootScope,$http){
+.controller('ConfirmCtrl',function($scope,$rootScope,$http,$ionicPopup){
 	$rootScope.personNum = 2;
 	$scope.back = function(){
 		window.location = '#/tab/home';
@@ -137,8 +161,14 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 				//websocket
 				var socket = io('ws://www.imnu.online:8888');
 				socket.emit('listmessage',{ sid :'13947965133',list:$rootScope.shopping});
+<<<<<<< HEAD:fe/user/js/controller.js
 				// setTimeout(function(){window.location = '#/tab/home';},1);
 				console.log("提交成功!");
+=======
+                $ionicPopup.alert({
+                    title: '订单完成'
+                });
+>>>>>>> origin/master:fe/ionic/js/controller.js
 			}
 		});
 	}
@@ -155,3 +185,4 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 		}
 	}
 })
+
