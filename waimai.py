@@ -100,14 +100,24 @@ class MeHandler(tornado.web.RequestHandler):
 
 class GetlistHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
-        self.render('angular/getlist.html')
-    def post(self, *args, **kwargs):
         self.set_header("Access-Control-Allow-Origin", "*")
         self.set_header("Access-Control-Allow-Headers", "x-requested-with")
         self.set_header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')
         sid = self.get_argument('sid')
+        sql = "SELECT list FROM shangjia WHERE sid='%s';" % (sid)
+        data4 = connpg.conn(sql)
+        # print type(data4)
+        data6 = json.dumps(data4[0])
+        self.set_header('Content-Type', 'application/json; charset=UTF-8')
+        self.write(json.dumps(data6))
+        self.finish()
+        # self.render("renturn/renturn1.json",data4=data4[3])
+    def post(self, *args, **kwargs):
+        # self.set_header("Access-Control-Allow-Origin", "*")
+        # self.set_header("Access-Control-Allow-Headers", "x-requested-with")
+        # self.set_header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')
+        sid = self.get_argument('sid')
         sql = "SELECT * FROM shangjia WHERE sid='%s';"%(sid)
-        print sql
         data4 = connpg.conn(sql)
         # data3 = json.dumps(data4)
         self.write(data4)

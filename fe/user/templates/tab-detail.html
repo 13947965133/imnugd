@@ -1,0 +1,40 @@
+<ion-view hide-tabs="true">
+    <ion-content class="has-footer">
+        <div class="item-image">
+            <img data-ng-src={{footList.img}} alt="">
+        </div>
+        <div class="padding" style="background-color: #fff">
+            <h4>{{footList.name}}</h4>
+            <div style="position: relative;">
+                <p style="color: #d00000;font-size: 1.2rem;">￥{{footList.jiage}}</p>
+                <div class="jia-box">
+                    <span ng-show=num[footList.id] ng-click="minus(footList)" class="jian"><i class="icon ion-android-remove"></i></span>
+                    <span ng-show=num[footList.id] class="num">{{num[footList.id]}}</span>
+                    <span class="jia" ng-click="plus(footList)"><i class="icon ion-android-add"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="padding" style="background-color: #fff;margin-top: 1rem;padding-right: 0;">
+            <h5 style="border-bottom: 1px solid #eee;padding-bottom: 1rem;">
+              <!-- <small>评论(暂时没有评论)</small> -->
+            </h5>
+            <!--<ul class="comment">-->
+                <!--<li>-->
+                    <!--<div class="item item-avatar" style="border: 0;">-->
+                        <!--<img src="images/m1.jpg" alt="">-->
+                        <!--<h3>name</h3>-->
+                        <!--<span class="badge">date</span>-->
+                    <!--</div>-->
+                    <!--<p class="padding"></p>-->
+                <!--</li>-->
+            <!--</ul>-->
+        </div>
+
+    </ion-content>
+
+    <div class="footer" ng-click="back()" style="background-color:#2B2C2D;">
+        <!--<div class="gouwuche icon ion-ios-cart"><span>{{zongshu}}</span></div>-->
+        <!--<h3 class="zongjia">￥{{zongjia}}</h3>-->
+        <div class="jiesuan">继续购买</div>
+    </div>
+</ion-view>

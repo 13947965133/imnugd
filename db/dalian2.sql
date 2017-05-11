@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.19-MariaDB, for Win32 (AMD64)
+-- MySQL dump 10.13  Distrib 5.5.53, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: localhost
+-- Host: localhost    Database: dalian2
 -- ------------------------------------------------------
--- Server version	10.1.19-MariaDB
+-- Server version	5.5.53-0ubuntu0.14.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -182,6 +182,29 @@ LOCK TABLES `user` WRITE;
 INSERT INTO `user` VALUES ('','','','',0,'',''),('121','121','','',0,'',''),('122','122','','',0,'',''),('123','123','','',0,'',''),('123456','123456','沉默','',0,'',''),('12348','12348','','',0,'',''),('124','124','','',0,'',''),('125','125','','',0,'',''),('126','126','','',0,'',''),('127','127','','',0,'',''),('132','132','','',0,'',''),('133','133','','',0,'',''),('134','134','','',0,'',''),('135','135','','',0,'',''),('137','137','','',0,'',''),('139','139','','',0,'',''),('13947965133','13947965133','','郭晗',0,'',''),('13947965555','13947965555','','',0,'',''),('145','145','','',0,'',''),('146','146','','',0,'',''),('149','149','','',0,'',''),('1577133','1577133','','',0,'',''),('15771332671','15771332671','沉默','麦乐滋(手工水饺)|0|白菜肉水饺(两)*2|餐具  肯德基(西单店)|★★★★|可乐(大杯)',32,'特朗普|男|12345678901|美国华盛顿白宫  普京|男|12345678901|俄罗斯莫斯科克里姆林宫','收益|3.50|2016-12-14|889  支出|-7.8|2016-8-24|776'),('165','165','','',0,'',''),('167','167','','',0,'',''),('169','169','','',0,'',''),('17004957578','QW1234er','','',0,'',''),('172','172','','',0,'',''),('178','178','','',0,'',''),('182','182','','',0,'',''),('183','183','','',0,'',''),('184','184','','',0,'',''),('186','186','','',0,'',''),('189','189','','',0,'',''),('199','199','','',0,'',''),('2','2','','',0,'',''),('23','23','','',0,'',''),('3','3','','',0,'',''),('458','458','','',0,'',''),('56','56','','',0,'',''),('693','693','','',0,'',''),('789','789','','',0,'','');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `xuanxiang`
+--
+
+DROP TABLE IF EXISTS `xuanxiang`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `xuanxiang` (
+  `id` int(11) DEFAULT NULL,
+  `value` varchar(254) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `xuanxiang`
+--
+
+LOCK TABLES `xuanxiang` WRITE;
+/*!40000 ALTER TABLE `xuanxiang` DISABLE KEYS */;
+INSERT INTO `xuanxiang` VALUES (3,'玫瑰珠宝'),(4,'生日推荐'),(5,'love roseonly'),(6,'专卖店'),(7,'诺誓世界'),(1,'鲜花玫瑰'),(2,'永生玫瑰');
+/*!40000 ALTER TABLE `xuanxiang` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -192,4 +215,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-12-30 15:22:14
+-- Dump completed on 2017-05-03 17:42:16

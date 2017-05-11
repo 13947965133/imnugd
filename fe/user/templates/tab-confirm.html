@@ -1,0 +1,84 @@
+<ion-view>
+    <div class="bar bar-dark">
+        <button class="button button-clear icon ion-ios-arrow-left" style="font-size: 2rem;" ng-click="back()"></button>
+        <h1 class="title">确定订单</h1>
+    </div>
+    <ion-content class="has-header confirm">
+        <div class="list">
+            <ul>
+                <li class="item" ng-repeat="x in shopping">
+                    <div style="margin-right: 8rem;">
+                        <span>{{x.name}}</span>
+                        <span style="color: #d00000;font-size: 1.2rem; float: right;">￥{{x.jiage}}</span>
+                    </div>
+                    <div class="jia-box">
+                        <!-- <span ng-show="num[x.id]" ng-click="minus(x)" class="jian"><i class="icon ion-android-remove"></i></span> -->
+                        <span ng-show="num[x.id]" class="num" style="font-size: 1.2rem;">{{num[x.id]}}份</span>
+                        <!-- <span class="jia" ng-click="plus(x)"><i class="icon ion-android-add"></i></span> -->
+                    </div>
+                </li>
+                <li class="item item-divider"></li>
+                <li class="item">
+                    <div style="margin-right: 8rem;">
+                        <span>人数</span>
+                    </div>
+                    <div class="jia-box">
+                        <span ng-show="personNum" ng-click="personMinus()" class="jian"><i class="icon ion-android-remove"></i></span>
+                        <span ng-show="personNum" class="num">{{personNum}}</span>
+                        <span class="jia" ng-click="personPlus()"><i class="icon ion-android-add"></i></span>
+                    </div>
+                </li>
+
+                <!-- <li class="item item-toggle">是否索要发票
+                    <label class="toggle">
+                        <input type="checkbox">
+                        <div class="track">
+                            <div class="handle"></div>
+                        </div>
+                    </label>
+                </li> -->
+                <label class="item item-radio" checked="checked">
+                    <input type="radio" name="a">
+                    <div class="radio-content">
+                        <div class="item-content">
+                            现金支付
+                        </div>
+                        <i class="radio-icon assertive ion-checkmark"></i>
+                    </div>
+                </label>
+                <label class="item item-radio">
+                    <input type="radio" name="a">
+                    <div class="radio-content">
+                        <div class="item-content">
+                            微信支付(该商家暂不支持)
+                        </div>
+                        <i class="radio-icon assertive ion-checkmark"></i>
+                    </div>
+                </label>
+                <label class="item item-input">
+                    <textarea placeholder="订单备注"></textarea>
+                </label>
+
+
+            </ul>
+
+        </div>
+    </ion-content>
+    <div class="footer" style="z-index: 999;background-color:#2B2C2D;">
+        <h3 class="zongjia" style="color:#BCBDBE;">￥{{zongjia}}</h3>
+        <script type="text/javascript">
+        $("#tijiaor").click(function(){
+          // $(this).hide();
+          $(this).text("已下单");
+          $(this).attr("disabled",true);
+          $(this).css("background-color","#FEB252");
+          $(this).css("border","1px solid #FEB252");
+          if(confirm("订单已发送到商家,是否确认关闭页面")){
+            window.close()
+            window.location="#/tab/home";
+           }
+        });
+        </script>
+        <div class="jiesuan" id="tijiaor" ng-click="tijiao()">提交订单</div>
+    </div>
+</ion-view>

@@ -7,6 +7,22 @@ angular.module('starter.controllers', ['ngStorage','ngAnimate'])
 		$scope.fontList.unshift(data.list);
 		console.log($scope.fontList);
 		$scope.$apply();
+		var audio = document.getElementById("bgMusic");
+
+		//播放(继续播放)
+		audio.play();
+		console.log("播放音乐");
+
+		//暂停
+		// audio.pause();
+
+		//停止
+		// audio.pause();
+		// audio.currentTime = 0;
+
+		//重新播放
+		// audio.currentTime = 0;
+		// audio.play();
 	});
 })
 

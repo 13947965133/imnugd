@@ -1,0 +1,106 @@
+[
+  {
+    "listName": "热菜",
+    "listID": 1,
+    "list": [{
+      "id": 1,
+      "name": "鱼香肉丝",
+      "num": "0",
+      "jiage": 13,
+      "profile": "这个火锅真好吃",
+      "img": "images/m3.jpg"
+    }, {
+      "id": 2,
+      "name": "糖醋里脊",
+      "num": "0",
+      "jiage": 15,
+      "profile": "这个麻辣烫真好吃",
+      "img": "images/m2.jpg"
+    }, {
+      "id": 3,
+      "name": "红烧牛肉",
+      "num": "0",
+      "jiage": 20,
+      "profile": "这个牛真好吃",
+      "img": "images/m8.jpg"
+    }]
+  },{
+  "listName": "凉菜",
+  "listID": 2,
+  "list": [{
+    "id": 4,
+    "name": "凉拌土豆丝",
+    "num": "0",
+    "jiage": 13,
+    "profile": "这个凉菜真好吃",
+    "img": "images/m1.jpg"
+  }, {
+    "id": 5,
+    "name": "拍黄瓜",
+    "num": "0",
+    "jiage": 15,
+    "profile": "这个凉菜真好吃",
+    "img": "images/m4.jpg"
+  }, {
+    "id": 6,
+    "name": "小葱拌豆腐",
+    "num": "0",
+    "jiage": 20,
+    "profile": "这个凉菜真好吃",
+    "img": "images/m8.jpg"
+  }]
+}, {
+  "listName": "主食",
+  "listID": 3,
+  "list": [{
+    "id": 7,
+    "name": "米饭",
+    "num": "0",
+    "jiage": 13,
+    "profile": "这个米饭真好吃",
+    "img": "images/m6.jpg"
+  }, {
+    "id": 8,
+    "name": "馒头",
+    "num": "0",
+    "jiage": 15,
+    "profile": "这个馒头真好吃",
+    "img": "images/m5.jpg"
+  }, {
+    "id": 9,
+    "name": "家常饼",
+    "num": "num",
+    "jiage": 20,
+    "profile": "这个饼真好吃",
+    "img": "images/m6.jpg"
+  }, {
+    "id": 10,
+    "name": "面条",
+    "num": "0",
+    "jiage": 15,
+    "profile": "这个面条真好吃",
+    "img": "images/m5.jpg"
+  }, {
+    "id": 11,
+    "name": "金银小馒头",
+    "num": "0",
+    "jiage": 15,
+    "profile": "这个小馒头真好吃",
+    "img": "images/m5.jpg"
+  }, {
+    "id": 12,
+    "name": "疙瘩汤",
+    "num": "0",
+    "jiage": 15,
+    "profile": "这个疙瘩汤真好吃",
+    "img": "images/m5.jpg"
+  }, {
+    "id": 13,
+    "name": "煮方便便",
+    "num": "0",
+    "jiage": 20,
+    "profile": "这个面真好吃",
+    "img": "images/m6.jpg"
+  }]
+}
+]

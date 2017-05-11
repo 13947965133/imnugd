@@ -1,0 +1,65 @@
+<ion-view>
+    <!-- <div style="background-color:#19111F;position: relative;" class="bar bar-dark" >
+        <h1 class="title">店家名称</h1>
+    </div> -->
+    <!-- 标题-end -->
+    <!--<span class="xiaoqiu"></span>-->
+    <ion-content style="right: 80%; background-color: #E5E5E5;position: absolute;top:0;" class="leftList has-header has-header">
+        <div class="list leftList">
+            <ul>
+                <li class="item xuanting"
+                    ng-repeat="x in footList"
+                    ng-click="dian(x.listID)"
+                    ng-class="{'active':x.listID==leftNum}" >
+                    {{x.listName}}
+                </li>
+            </ul>
+        </div>
+    </ion-content>
+    <ion-content scroll-monitor id="right" style="left: 20%;position:absolute;top:0;" class="rightList has-header has-footer" delegate-handle="scrollRight" on-scroll="onScroll()">
+        <div class="list" ng-repeat="y in footList" id={{y.listName}}>
+            <ul>
+              <!-- item-dark 样式变为黑色 -->
+                <!-- <li style="border: 0;padding-top: 4px;padding-bottom: 4px;" class="item item-divider">{{y.listName}}</li> -->
+                <!-- <hr noshade="noshade" style="background-color:#ff0000;"> -->
+                <li style="position: relative;" ng-repeat="x in y.list" last-index>
+                    <div style="border: 0;padding-top: 5px;padding-bottom: 0px;padding-left: 106px;min-height: 80px;" class="item item-thumbnail-left" ng-click="jump(x.id)" nav-direction="back">
+                        <!-- style="width:60px;height:60px;" -->
+                            <!-- <img  data-ng-src="{{reply.imgSrc}}"/> -->
+                        <img data-ng-src={{x.img}} style="width:60px;height:60px;" >
+                        <h2 style="font-size:1.2rem;">{{x.name}}</h2>
+                        <br>
+                        <p style="color: #d00000;font-size: 1.4rem;">￥{{x.jiage}}</p>
+                    </div>
+                    <div class="jia-box">
+                        <span ng-show="num[x.id]" ng-click="minus(x)" class="jian jian-anmin-d"><i class="icon ion-android-remove"></i></span>
+                        <span ng-show="num[x.id]" class="num">{{num[x.id]}}</span>
+                        <span class="jia jia-anmin-d" ng-click="plus(x)" jiajia><i class="icon ion-android-add addcart"></i></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </ion-content>
+    <div class="shopinng ng-animate" ng-show="show" style="z-index: 998;border-color:#2B2C2D;background-color: #2B2C2D;">
+        <div class="list" style="min-height:250px;overflow:auto;max-height:300px;">
+            <ul>
+                <li class="item" ng-repeat="x in shopping" style="height:">
+                    <div style="margin-right: 8rem;">
+                        <span>{{x.name}}</span>
+                        <span style="color: #d00000;font-size: 1.2rem; float: right;">￥{{x.jiage}}</span>
+                    </div>
+                    <div class="jia-box">
+                        <span ng-show="num[x.id]" ng-click="minus(x)" class="jian"><i class="icon ion-android-remove"></i></span>
+                        <span ng-show="num[x.id]" class="num">{{num[x.id]}}</span>
+                        <span class="jia" ng-click="plus(x)" jiajia><i class="icon ion-android-add"></i></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer" style="z-index: 999; background-color:#2B2C2D;border-color:#2B2C2D;">
+        <div class="gouwuche icon ion-ios-cart" ng-click="shop()"><span>{{zongshu}}</span></div>
+        <h3 class="zongjia" style="color:#BCBDBE;">￥{{zongjia}}</h3>
+        <div class="jiesuan" ng-click="statements()">去结算</div>
+    </div>
+</ion-view>

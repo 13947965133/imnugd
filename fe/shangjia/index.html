@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
-    <title>美食</title>
+    <title>商家端</title>
     <link rel="stylesheet" href="css/ionic.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="lib/jquery/jquery.min.js"></script>
-    <script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script>
+    <!-- <script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script> -->
+    <script src="js/socket.io.js" charset="utf-8"></script>
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/ionic/js/angular/storage.js"></script>
     <script src="lib/ionic/js/angular/angular-animate.js"></script>
@@ -16,6 +17,10 @@
     <script src="js/controller.js"></script>
 </head>
 <body ng-app="starter">
+  <audio id="bgMusic">
+    <source = src="../audio/4.mp3" type="audio/mp3">
+      <!-- <source = src="hangge.ogg" type="audio/ogg"> -->
+  </audio>
 <ion-nav-view></ion-nav-view>
 </body>
 </html>

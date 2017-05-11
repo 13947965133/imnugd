@@ -23,7 +23,7 @@
   		  ,{"name":["个数","总价","规格","属性"]}
 		];
 	function send(){
-		var socket = io('ws://localhost:8888');
+		var socket = io('ws://imnu.online:8888');
 			socket.emit('listmessage',{ sid :'13947965133',list:$("#shuru").val()});
 	}
 
